@@ -1,0 +1,8 @@
+requests
+openpyxl
+Pillow
+ttkbootstrap
+python-dotenv
+pathlib
+webcolors
+urllib3

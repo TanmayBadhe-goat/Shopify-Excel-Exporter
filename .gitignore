@@ -1,0 +1,4 @@
+.env
+.env.example
+shopify_token.json
+node_modules/
