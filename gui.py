@@ -10,6 +10,7 @@ from image_resolver import ProductImageResolver
 from excel_updater import update_excel
 from product_search import search_product_orders
 from data_utils import extract_color_robust, extract_size_robust
+from remittance_processor import process_remittance_csv
 from utils import logger
 import ttkbootstrap as ttk_boot
 from ttkbootstrap.constants import *
@@ -72,7 +73,6 @@ class ShopifyExporterGUI:
         
         rb_latest = ttk.Radiobutton(mode_frame, text="Latest Orders", variable=self.fetch_mode, value="latest", bootstyle=INFO)
         rb_latest.grid(row=0, column=0, sticky=W, pady=5)
-        
         self.limit_spinbox = ttk.Spinbox(mode_frame, from_=1, to=10000, width=10)
         self.limit_spinbox.set(50)
         self.limit_spinbox.grid(row=0, column=1, sticky=W, padx=10)
@@ -80,24 +80,30 @@ class ShopifyExporterGUI:
 
         rb_date = ttk.Radiobutton(mode_frame, text="Date Range", variable=self.fetch_mode, value="date", bootstyle=INFO)
         rb_date.grid(row=1, column=0, sticky=W, pady=5)
-        
         date_inputs = ttk.Frame(mode_frame)
         date_inputs.grid(row=1, column=1, columnspan=2, sticky=W, padx=10)
-        
         ttk.Label(date_inputs, text="From:").pack(side=LEFT)
         self.date_from_entry = ttk.Entry(date_inputs, width=12)
         self.date_from_entry.insert(0, (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d"))
         self.date_from_entry.pack(side=LEFT, padx=5)
-        
         ttk.Label(date_inputs, text="To:").pack(side=LEFT, padx=(5, 0))
         self.date_to_entry = ttk.Entry(date_inputs, width=12)
         self.date_to_entry.insert(0, datetime.now().strftime("%Y-%m-%d"))
         self.date_to_entry.pack(side=LEFT, padx=5)
-        
-        ttk.Label(mode_frame, text="(YYYY-MM-DD)", font=("Helvetica", 8, "italic")).grid(row=2, column=1, columnspan=2, sticky=W, padx=10)
 
-        # Right: Filters
-        filters_frame = ttk.LabelFrame(middle_frame, text=" Export Filters ", padding=15)
+        rb_order_range = ttk.Radiobutton(mode_frame, text="Order Range", variable=self.fetch_mode, value="order_range", bootstyle=INFO)
+        rb_order_range.grid(row=2, column=0, sticky=W, pady=5)
+        order_inputs = ttk.Frame(mode_frame)
+        order_inputs.grid(row=2, column=1, columnspan=2, sticky=W, padx=10)
+        ttk.Label(order_inputs, text="From:").pack(side=LEFT)
+        self.order_from_entry = ttk.Entry(order_inputs, width=10)
+        self.order_from_entry.pack(side=LEFT, padx=5)
+        ttk.Label(order_inputs, text="To:").pack(side=LEFT, padx=(5, 0))
+        self.order_to_entry = ttk.Entry(order_inputs, width=10)
+        self.order_to_entry.pack(side=LEFT, padx=5)
+
+        # Right: Filters & Options
+        filters_frame = ttk.LabelFrame(middle_frame, text=" Export Filters & Options ", padding=15)
         filters_frame.pack(side=LEFT, fill=BOTH, expand=YES, padx=(10, 0))
 
         ttk.Label(filters_frame, text="Order Status:").grid(row=0, column=0, sticky=W, pady=5)
@@ -107,6 +113,11 @@ class ShopifyExporterGUI:
         ttk.Label(filters_frame, text="Financial:").grid(row=1, column=0, sticky=W, pady=5)
         self.financial_status_var = tk.StringVar(value="any")
         ttk.Combobox(filters_frame, textvariable=self.financial_status_var, values=["any", "authorized", "pending", "paid", "refunded", "voided"], state="readonly").grid(row=1, column=1, sticky=(W, E), pady=5, padx=5)
+        
+        # Image Checkbox (NEW)
+        self.include_images_var = tk.BooleanVar(value=True)
+        self.img_checkbox = ttk.Checkbutton(filters_frame, text="Include Product Images", variable=self.include_images_var, bootstyle="round-toggle")
+        self.img_checkbox.grid(row=2, column=0, columnspan=2, sticky=W, pady=10)
         
         filters_frame.columnconfigure(1, weight=1)
 
@@ -141,6 +152,9 @@ class ShopifyExporterGUI:
 
         self.search_button = ttk.Button(actions_frame, text="Search Products", command=self.search_product_thread, bootstyle=SECONDARY)
         self.search_button.pack(side=LEFT, padx=5)
+        
+        self.remittance_button = ttk.Button(actions_frame, text="Generate Remittance Report", command=self.remittance_report_thread, bootstyle=DANGER)
+        self.remittance_button.pack(side=LEFT, padx=5)
 
         # Progress
         self.progress_var = tk.DoubleVar()
@@ -186,29 +200,15 @@ class ShopifyExporterGUI:
             
             if mode == "latest":
                 limit = int(self.limit_spinbox.get())
-                self.log_to_console(f"Target: Latest {limit} orders.")
-                self.orders = api.get_orders(
-                    count=limit,
-                    status=self.status_var.get(),
-                    financial_status=self.financial_status_var.get()
-                )
-            else:
+                self.orders = api.get_orders(count=limit, status=self.status_var.get(), financial_status=self.financial_status_var.get())
+            elif mode == "date":
                 date_min = self.date_from_entry.get().strip()
                 date_max = self.date_to_entry.get().strip()
-                self.log_to_console(f"Target: All orders from {date_min} to {date_max}.")
-                try:
-                    datetime.strptime(date_min, "%Y-%m-%d")
-                    datetime.strptime(date_max, "%Y-%m-%d")
-                except ValueError:
-                    raise ValueError("Invalid date format. Please use YYYY-MM-DD.")
-                
-                self.orders = api.get_orders(
-                    count=10000,
-                    status=self.status_var.get(),
-                    financial_status=self.financial_status_var.get(),
-                    created_at_min=f"{date_min}T00:00:00Z",
-                    created_at_max=f"{date_max}T23:59:59Z"
-                )
+                self.orders = api.get_orders(count=10000, status=self.status_var.get(), financial_status=self.financial_status_var.get(), created_at_min=f"{date_min}T00:00:00Z", created_at_max=f"{date_max}T23:59:59Z")
+            elif mode == "order_range":
+                o_from = int(self.order_from_entry.get().strip())
+                o_to = int(self.order_to_entry.get().strip())
+                self.orders = api.get_orders(status=self.status_var.get(), financial_status=self.financial_status_var.get(), order_min=o_from, order_max=o_to)
             
             self.log_to_console(f"Successfully retrieved {len(self.orders)} orders.")
             self.status_label.config(text=f"Fetched {len(self.orders)} orders")
@@ -228,7 +228,8 @@ class ShopifyExporterGUI:
     def export_excel(self):
         self.is_exporting = True
         self.export_button.config(state=DISABLED)
-        self.log_to_console("Starting Simplified Parallel Export...")
+        include_images = self.include_images_var.get()
+        self.log_to_console(f"Starting Export (Images: {'YES' if include_images else 'NO'})...")
         
         try:
             downloader = ImageDownloader(max_workers=10)
@@ -236,7 +237,6 @@ class ShopifyExporterGUI:
             api = getattr(self, '_last_api', ShopifyAPI())
             resolver = ProductImageResolver(api)
             
-            self.log_to_console("Step 1: Resolving image URLs...")
             image_tasks = []
             orders_data_temp = []
             
@@ -244,28 +244,27 @@ class ShopifyExporterGUI:
                 for item in order.get("line_items", []):
                     p_id = item.get("product_id")
                     v_id = item.get("variant_id")
-                    if p_id:
+                    
+                    if include_images and p_id:
                         url = resolver.get_image_url(item)
                         if url: image_tasks.append((url, f"{p_id}_{v_id}"))
+                    
                     orders_data_temp.append((order, item))
 
-            if image_tasks:
-                self.log_to_console(f"Step 2: Downloading {len(image_tasks)} images...")
+            image_paths = {}
+            if include_images and image_tasks:
+                self.log_to_console(f"Downloading {len(image_tasks)} images...")
                 downloaded_paths = downloader.download_images_parallel(image_tasks, log_fn=self.log_to_console)
                 for fid, path in downloaded_paths.items():
                     parts = fid.split("_")
-                    p_id = int(parts[0])
-                    v_id = int(parts[1]) if len(parts) > 1 else None
-                    self.image_paths[(p_id, v_id)] = str(path) if path else None
+                    p_id, v_id = int(parts[0]), int(parts[1]) if len(parts) > 1 else None
+                    image_paths[(p_id, v_id)] = str(path) if path else None
 
-            self.log_to_console("Step 3: Processing order data...")
             final_data = []
             for order, item in orders_data_temp:
                 p_id = item.get("product_id")
                 product = resolver._product_cache.get(p_id) if p_id else None
-                if product == "__NO_IMAGE__": product = None
-                
-                row = {
+                final_data.append({
                     "order_number": f"#{order.get('order_number')}",
                     "customer_name": f"{order.get('customer', {}).get('first_name', '')} {order.get('customer', {}).get('last_name', '')}".strip(),
                     "customer_email": order.get("customer", {}).get("email", ""),
@@ -278,12 +277,9 @@ class ShopifyExporterGUI:
                     "payment_status": order.get("financial_status", ""),
                     "product_id": p_id,
                     "variant_id": item.get("variant_id")
-                }
-                final_data.append(row)
+                })
 
-            self.log_to_console("Step 4: Generating Excel file...")
-            file_path = exporter.export_orders_to_excel(final_data, self.image_paths)
-            self.log_to_console(f"Success! Saved to {file_path.name}")
+            file_path = exporter.export_orders_to_excel(final_data, image_paths, include_images=include_images)
             messagebox.showinfo("Export Success", f"Excel file generated successfully!")
             
         except Exception as e:
@@ -311,127 +307,129 @@ class ShopifyExporterGUI:
     def search_product_thread(self):
         query = simpledialog.askstring("Search", "Product name or keyword:")
         if not query: return
-        
-        # Get order range from UI
         try:
-            min_val = self.search_min_entry.get().strip()
-            max_val = self.search_max_entry.get().strip()
-            order_min = int(min_val) if min_val else None
-            order_max = int(max_val) if max_val else None
+            min_val, max_val = self.search_min_entry.get().strip(), self.search_max_entry.get().strip()
+            order_min, order_max = int(min_val) if min_val else None, int(max_val) if max_val else None
         except ValueError:
             messagebox.showerror("Input Error", "Order range must be numeric.")
             return
-
         threading.Thread(target=self.run_search, args=(query, order_min, order_max), daemon=True).start()
 
     def run_search(self, query, order_min, order_max):
-        self.log_to_console(f"Searching for '{query}' in range {order_min} to {order_max}...")
+        self.log_to_console(f"Searching for '{query}'...")
         try:
             api = getattr(self, '_last_api', ShopifyAPI())
-            resolver = ProductImageResolver(api)
-            downloader = ImageDownloader()
-            
-            results, _ = search_product_orders(
-                api=api,
-                search_term=query,
-                resolver=resolver,
-                downloader=downloader,
-                order_min=order_min,
-                order_max=order_max,
-                log_fn=self.log_to_console,
-                progress_fn=self.progress_var.set,
-                status_fn=lambda m: self.status_label.config(text=m)
-            )
-            
-            if results:
-                self.show_search_results(results)
-            else:
-                messagebox.showinfo("Search", "No matches found.")
+            resolver, downloader = ProductImageResolver(api), ImageDownloader()
+            results, _ = search_product_orders(api=api, search_term=query, resolver=resolver, downloader=downloader, order_min=order_min, order_max=order_max, log_fn=self.log_to_console, progress_fn=self.progress_var.set, status_fn=lambda m: self.status_label.config(text=m))
+            if results: self.show_search_results(results)
+            else: messagebox.showinfo("Search", "No matches found.")
         except Exception as e:
-            self.log_to_console(f"SEARCH ERROR: {str(e)}")
             messagebox.showerror("Search Error", str(e))
 
     def show_search_results(self, results):
         win = tk.Toplevel(self.root)
         win.title(f"Search Results: {len(results)} found")
         win.geometry("900x600")
-        
         frame = ttk.Frame(win, padding=20)
         frame.pack(fill=BOTH, expand=YES)
-        
-        # Table
         tree_frame = ttk.Frame(frame)
         tree_frame.pack(fill=BOTH, expand=YES, pady=(0, 15))
-        
         scrollbar = ttk.Scrollbar(tree_frame)
         scrollbar.pack(side=RIGHT, fill=Y)
-        
         tree = ttk.Treeview(tree_frame, columns=("Order", "Date", "Product", "Variant", "Customer"), show="headings", yscrollcommand=scrollbar.set)
-        tree.heading("Order", text="Order #")
-        tree.heading("Date", text="Date")
-        tree.heading("Product", text="Product")
-        tree.heading("Variant", text="Variant")
-        tree.heading("Customer", text="Customer")
-        
-        tree.column("Order", width=80)
-        tree.column("Date", width=100)
-        tree.column("Product", width=250)
-        tree.column("Variant", width=150)
-        tree.column("Customer", width=150)
-        
-        for r in results:
-            tree.insert("", tk.END, values=(r.get("order_number"), r.get("order_date"), r.get("product_name"), r.get("variant_name"), r.get("customer_name")))
-            
+        for col in ("Order", "Date", "Product", "Variant", "Customer"): tree.heading(col, text=col)
+        for r in results: tree.insert("", tk.END, values=(r.get("order_number"), r.get("order_date"), r.get("product_name"), r.get("variant_name"), r.get("customer_name")))
         tree.pack(fill=BOTH, expand=YES)
         scrollbar.config(command=tree.yview)
         
-        # Buttons
-        btn_frame = ttk.Frame(frame)
-        btn_frame.pack(fill=X)
-        
         def export_search_results():
             try:
-                # 1. Resolve images and download them in parallel
-                self.log_to_console("Starting Search Result Export...")
+                include_images = self.include_images_var.get()
                 api = getattr(self, '_last_api', ShopifyAPI())
-                resolver = ProductImageResolver(api)
-                downloader = ImageDownloader(max_workers=10)
+                resolver, downloader, exporter = ProductImageResolver(api), ImageDownloader(max_workers=10), ExcelExporter()
                 
                 image_tasks = []
-                for r in results:
-                    line_item = r.get("line_item")
-                    if line_item:
-                        url = resolver.get_image_url(line_item)
-                        if url:
-                            image_tasks.append((url, f"{r.get('product_id')}_{r.get('variant_id')}"))
+                if include_images:
+                    for r in results:
+                        url = resolver.get_image_url(r.get("line_item"))
+                        if url: image_tasks.append((url, f"{r.get('product_id')}_{r.get('variant_id')}"))
                 
                 search_image_paths = {}
-                if image_tasks:
-                    self.log_to_console(f"Downloading {len(image_tasks)} images...")
+                if include_images and image_tasks:
                     downloaded = downloader.download_images_parallel(image_tasks, log_fn=self.log_to_console)
                     for fid, path in downloaded.items():
                         parts = fid.split("_")
-                        p_id = int(parts[0])
-                        v_id = int(parts[1]) if len(parts) > 1 else None
-                        search_image_paths[(p_id, v_id)] = str(path) if path else None
+                        search_image_paths[(int(parts[0]), int(parts[1]) if len(parts) > 1 else None)] = str(path) if path else None
                 
-                # 2. Export to Excel
-                exporter = ExcelExporter()
-                file_path = exporter.export_orders_to_excel(results, search_image_paths)
-                self.log_to_console(f"Search results exported to: {file_path.name}")
-                messagebox.showinfo("Export Success", f"Search results exported to:\n{file_path.name}")
+                exporter.export_orders_to_excel(results, search_image_paths, include_images=include_images)
+                messagebox.showinfo("Export Success", "Search results exported!")
                 win.destroy()
-            except Exception as e:
-                self.log_to_console(f"SEARCH EXPORT ERROR: {str(e)}")
-                messagebox.showerror("Export Error", str(e))
+            except Exception as e: messagebox.showerror("Export Error", str(e))
 
-        ttk.Button(btn_frame, text="Export to Excel", command=lambda: threading.Thread(target=export_search_results, daemon=True).start(), bootstyle=SUCCESS).pack(side=LEFT, padx=5)
-        ttk.Button(btn_frame, text="Close", command=win.destroy, bootstyle=SECONDARY).pack(side=RIGHT, padx=5)
+        ttk.Button(frame, text="Export to Excel", command=lambda: threading.Thread(target=export_search_results, daemon=True).start(), bootstyle=SUCCESS).pack(side=LEFT)
+        ttk.Button(frame, text="Close", command=win.destroy, bootstyle=SECONDARY).pack(side=RIGHT)
+
+    def remittance_report_thread(self):
+        o_from = simpledialog.askstring("Remittance Report", "Starting Order Number (e.g. 1600):")
+        if not o_from: return
+        o_to = simpledialog.askstring("Remittance Report", "Ending Order Number (Optional, leave blank for latest):")
+        csv_path = filedialog.askopenfilename(title="Select iThink Logistics Remittance CSV", filetypes=[("CSV files", "*.csv")])
+        if not csv_path: return
+        threading.Thread(target=self.run_remittance_report, args=(o_from, o_to, csv_path), daemon=True).start()
+
+    def run_remittance_report(self, o_from, o_to, csv_path):
+        self.remittance_button.config(state=DISABLED)
+        self.progress_var.set(0)
+        include_images = self.include_images_var.get()
+        try:
+            remittance_data = process_remittance_csv(csv_path)
+            api = ShopifyAPI()
+            self._last_api = api
+            resolver, downloader, exporter = ProductImageResolver(api), ImageDownloader(max_workers=10), ExcelExporter()
+            
+            shopify_orders = api.get_orders(order_min=int(o_from), order_max=int(o_to) if o_to else None)
+            
+            image_tasks, orders_data = [], []
+            for order in shopify_orders:
+                for item in order.get("line_items", []):
+                    p_id, v_id = item.get("product_id"), item.get("variant_id")
+                    if include_images and p_id:
+                        url = resolver.get_image_url(item)
+                        if url: image_tasks.append((url, f"{p_id}_{v_id}"))
+                    
+                    product = resolver._product_cache.get(p_id)
+                    orders_data.append({
+                        "order_number": f"#{order.get('order_number')}",
+                        "customer_name": f"{order.get('customer', {}).get('first_name', '')} {order.get('customer', {}).get('last_name', '')}".strip(),
+                        "customer_email": order.get("customer", {}).get("email", ""),
+                        "phone_number": order.get("customer", {}).get("phone", ""),
+                        "product_name": item.get("title"),
+                        "variant_name": item.get("variant_title"),
+                        "color": extract_color_robust(item, product),
+                        "size": extract_size_robust(item, product),
+                        "price": item.get("price"),
+                        "payment_status": order.get("financial_status", ""),
+                        "product_id": p_id,
+                        "variant_id": v_id
+                    })
+
+            image_paths = {}
+            if include_images and image_tasks:
+                downloaded = downloader.download_images_parallel(image_tasks, log_fn=self.log_to_console)
+                for fid, path in downloaded.items():
+                    parts = fid.split("_")
+                    image_paths[(int(parts[0]), int(parts[1]) if len(parts) > 1 else None)] = str(path) if path else None
+
+            exporter.export_orders_to_excel(orders_data, image_paths, remittance_data=remittance_data, is_remittance_report=True, include_images=include_images)
+            messagebox.showinfo("Success", "Remittance Report generated!")
+        except Exception as e: messagebox.showerror("Remittance Error", str(e))
+        finally:
+            self.remittance_button.config(state=NORMAL)
+            self.progress_var.set(100)
 
 def main():
     root = ttk_boot.Window(themename="cosmo")
     app = ShopifyExporterGUI(root)
     root.mainloop()
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": main()

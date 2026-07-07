@@ -90,13 +90,16 @@ class ShopifyAPI:
         status="any",
         fulfillment_status="any",
         financial_status="any",
+        order_min=None,
+        order_max=None
     ):
         """Fetch orders with optional filters and pagination."""
         orders = []
         page_info = None
-        page_size = min(count, 250)
+        page_size = 250 if (order_min or order_max) else min(count, 250)
 
-        while len(orders) < count:
+        # For order number range, we iterate until we hit the range boundaries
+        while True:
             if page_info:
                 params = {
                     "limit": page_size,
@@ -122,18 +125,40 @@ class ShopifyAPI:
             
             if not batch:
                 break
+            
+            # Filter by order number range if specified
+            if order_min is not None or order_max is not None:
+                in_range_batch = []
+                stop_fetching = False
                 
-            orders.extend(batch)
+                # Normalize range
+                mn = min(order_min, order_max) if (order_min and order_max) else (order_min or 0)
+                mx = max(order_min, order_max) if (order_min and order_max) else (order_max or 999999999)
 
-            if len(orders) >= count:
-                break
+                for o in batch:
+                    num = o.get("order_number")
+                    if num is not None:
+                        if mn <= num <= mx:
+                            in_range_batch.append(o)
+                        elif num < mn:
+                            # Since orders are desc, if we're below mn, we can stop
+                            stop_fetching = True
+                            break
+                
+                orders.extend(in_range_batch)
+                if stop_fetching:
+                    break
+            else:
+                orders.extend(batch)
+                if len(orders) >= count:
+                    orders = orders[:count]
+                    break
 
             link_header = response.headers.get("Link")
             page_info = self._get_next_page_info(link_header)
             if not page_info:
                 break
 
-        orders = orders[:count]
         logger.info(f"Successfully fetched {len(orders)} orders.")
         return orders
 
