@@ -23,7 +23,8 @@ class ExcelExporter:
             ("Color", 12),
             ("Size", 10),
             ("Price", 12),
-            ("Payment Status", 15)
+            ("Quantity", 10),
+            ("Payment Status", 15),
         ]
 
     def export_orders_to_excel(self, orders_data, image_paths, remittance_data=None, is_remittance_report=False, include_images=True, enabled_columns=None):

@@ -7,6 +7,7 @@ export_excel(), run_remittance_report(), and show_search_results() in gui.py.
 
 from typing import Callable, Optional
 from .data_utils import extract_color_robust, extract_size_robust
+from .image_resolver import _NO_IMAGE
 from .utils import logger
 
 
@@ -30,8 +31,8 @@ class OrderDataBuilder:
         -------
         dict with keys:
             order_number, customer_name, customer_email, phone_number,
-            product_name, variant_name, color, size, price, payment_status,
-            product_id, variant_id
+            product_name, variant_name, color, size, quantity, price,
+            payment_status, product_id, variant_id
         """
         customer = order.get("customer") or {}
         name = f"{customer.get('first_name', '')} {customer.get('last_name', '')}".strip()
@@ -46,6 +47,7 @@ class OrderDataBuilder:
             "variant_name": item.get("variant_title"),
             "color": extract_color_robust(item, product),
             "size": extract_size_robust(item, product),
+            "quantity": item.get("quantity", 0),
             "price": item.get("price"),
             "payment_status": order.get("financial_status", ""),
             "product_id": p_id,
@@ -78,7 +80,7 @@ class OrderDataBuilder:
                 product = None
                 if p_id and product_cache is not None:
                     cached = product_cache.get(p_id)
-                    product = cached if cached != "__NO_IMAGE__" else None
+                    product = cached if cached != _NO_IMAGE else None
                 results.append(cls.build_item_data(order, item, product))
         return results
 

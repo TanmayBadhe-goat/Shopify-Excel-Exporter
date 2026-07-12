@@ -6,8 +6,7 @@ names (comma-separated, case-insensitive), and filters by order number range.
 """
 
 from .shopify_api import ShopifyAPI
-from .image_downloader import ImageDownloader
-from .image_resolver import ProductImageResolver
+from .image_resolver import ProductImageResolver, _NO_IMAGE
 from .color_utils import resolve_color
 from .size_utils import get_next_size
 from .utils import logger
@@ -17,7 +16,6 @@ def search_product_orders(
     api: ShopifyAPI,
     search_term: str,
     resolver: ProductImageResolver,
-    downloader: ImageDownloader,
     order_min: int = None,
     order_max: int = None,
     log_fn=None,
@@ -124,7 +122,7 @@ def search_product_orders(
                     if product is None:
                         # Only fetch product if not in cache (Level 3)
                         product = api.get_product(product_id)
-                        resolver._product_cache[product_id] = product or "__NO_IMAGE__"
+                        resolver._product_cache[product_id] = product or _NO_IMAGE
 
                 color = resolve_color(variant_title.split("/")[0].strip()) if "/" in variant_title else resolve_color(variant_title)
                 size = get_next_size(variant_title.split("/")[-1].strip()) if "/" in variant_title else ""

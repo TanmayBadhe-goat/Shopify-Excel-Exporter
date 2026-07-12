@@ -29,7 +29,7 @@ class TestBuildItemData:
         expected_keys = {
             "order_number", "customer_name", "customer_email",
             "phone_number", "product_name", "variant_name",
-            "color", "size", "price", "payment_status",
+            "color", "size", "quantity", "price", "payment_status",
             "product_id", "variant_id",
         }
         assert set(data.keys()) == expected_keys

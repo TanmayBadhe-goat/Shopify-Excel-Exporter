@@ -12,7 +12,7 @@ from pathlib import Path
 
 from .shopify_api import ShopifyAPI
 from .image_downloader import ImageDownloader
-from .image_resolver import ProductImageResolver
+from .image_resolver import ProductImageResolver, _NO_IMAGE
 from .data_utils import extract_color_robust, extract_size_robust
 from .utils import logger
 
@@ -124,8 +124,8 @@ def update_excel(filepath: str, log_fn=None, progress_fn=None, status_fn=None):
             product = resolver._product_cache.get(p_id)
             if product is None:
                 product = api.get_product(p_id)
-                resolver._product_cache[p_id] = product or "__NO_IMAGE__"
-            elif product == "__NO_IMAGE__":
+                resolver._product_cache[p_id] = product or _NO_IMAGE
+            elif product == _NO_IMAGE:
                 product = None
 
         # Update Color

@@ -15,7 +15,7 @@ from typing import Callable, Optional
 
 from .config import Config
 from .shopify_api import ShopifyAPI
-from .image_resolver import ProductImageResolver
+from .image_resolver import ProductImageResolver, _NO_IMAGE
 from .image_cache_manager import get_image_cache
 from .data_utils import extract_color_robust, extract_size_robust
 from .database import DatabaseManager, get_db
@@ -139,7 +139,7 @@ class DatabaseSync:
                         if product:
                             self.resolver._product_cache[p_id] = product
                         else:
-                            self.resolver._product_cache[p_id] = "__NO_IMAGE__"
+                            self.resolver._product_cache[p_id] = _NO_IMAGE
                             product = None
 
                 # ── Resolve color & size ──────────────────────────────────

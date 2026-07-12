@@ -322,7 +322,7 @@ class ShopifyExporterGUI:
         try:
             api = getattr(self, '_last_api', ShopifyAPI())
             resolver, downloader = ProductImageResolver(api), ImageDownloader()
-            results, _ = search_product_orders(api=api, search_term=query, resolver=resolver, downloader=downloader, order_min=order_min, order_max=order_max, log_fn=self.log_to_console, progress_fn=self.progress_var.set, status_fn=lambda m: self.status_label.config(text=m))
+            results, _ = search_product_orders(api=api, search_term=query, resolver=resolver, order_min=order_min, order_max=order_max, log_fn=self.log_to_console, progress_fn=self.progress_var.set, status_fn=lambda m: self.status_label.config(text=m))
             if results: self.show_search_results(results)
             else: messagebox.showinfo("Search", "No matches found.")
         except Exception as e:

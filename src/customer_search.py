@@ -19,7 +19,6 @@ from .database import get_db
 from .shopify_api import ShopifyAPI
 from .product_search import search_product_orders
 from .image_resolver import ProductImageResolver
-from .image_downloader import ImageDownloader
 from .utils import logger
 
 
@@ -75,13 +74,10 @@ class DatabaseSearch:
             if self.api is None:
                 self.api = ShopifyAPI()
             resolver = ProductImageResolver(self.api)
-            downloader = ImageDownloader()
-
             results, _ = search_product_orders(
                 api=self.api,
                 search_term=keyword,
                 resolver=resolver,
-                downloader=downloader,
                 order_min=order_min,
                 order_max=order_max,
                 log_fn=log_fn,

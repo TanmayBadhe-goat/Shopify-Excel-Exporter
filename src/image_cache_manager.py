@@ -15,11 +15,9 @@ from pathlib import Path
 from typing import Optional
 
 from .utils import logger
+from .image_resolver import _NO_IMAGE
 
 CACHE_FILE = "image_cache.json"
-
-# Sentinel for negative cache
-_NO_IMAGE = "__NO_IMAGE__"
 
 
 class ImageCacheManager:

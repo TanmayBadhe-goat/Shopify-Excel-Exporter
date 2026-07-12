@@ -71,7 +71,7 @@ class SettingsWindow:
         ttk.Button(
             main_frame,
             text="Close",
-            command=self.win.destroy,
+            command=self._close,
             bootstyle="secondary",
             width=20,
         ).pack(pady=(10, 0))
@@ -103,8 +103,8 @@ class SettingsWindow:
         ttk.Label(self._tab_general, text="API Version:", font=("Helvetica", 10, "bold")).grid(
             row=1, column=0, sticky="w", pady=5
         )
-        api_var = tk.StringVar(value=Config.API_VERSION)
-        api_entry = ttk.Entry(self._tab_general, textvariable=api_var, width=15)
+        self.api_var = tk.StringVar(value=Config.API_VERSION)
+        api_entry = ttk.Entry(self._tab_general, textvariable=self.api_var, width=15)
         api_entry.grid(row=1, column=1, sticky="w", pady=5, padx=10)
 
         ttk.Label(self._tab_general, text="App Version:", font=("Helvetica", 10, "bold")).grid(
@@ -183,6 +183,16 @@ class SettingsWindow:
             self.export_dir_var.set(path)
 
     # ── Tab: Size Mapping ────────────────────────────────────────────────
+
+    def _close(self):
+        """Save settings before closing."""
+        # Save API version if changed
+        new_api = self.api_var.get().strip()
+        if new_api and new_api != Config.API_VERSION:
+            Config.API_VERSION = new_api
+            Config.save_settings()
+            logger.info(f"API version saved: {new_api}")
+        self.win.destroy()
 
     def _build_size(self):
         self.size_editor = SizeMappingEditor(self._tab_size)
