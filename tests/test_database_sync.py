@@ -59,10 +59,21 @@ class TestDatabaseSyncInit:
         assert syncer.resolver is mock_resolver
 
     def test_initializes_from_scratch(self):
-        syncer = DatabaseSync()
-        # Should create its own API and resolver
-        assert syncer.api is not None
-        assert syncer.resolver is not None
+        """Should create its own API and resolver without needing a .env file."""
+        from unittest.mock import patch
+        from src.config import Config
+
+        with patch.multiple(
+            Config,
+            STORE_URL="test-store.myshopify.com",
+            SHOPIFY_SHOP="test-store.myshopify.com",
+            SHOPIFY_CLIENT_ID="test-client-id",
+            SHOPIFY_CLIENT_SECRET="test-client-secret",
+        ):
+            syncer = DatabaseSync()
+            # Should create its own API and resolver
+            assert syncer.api is not None
+            assert syncer.resolver is not None
 
 
 class TestSyncAll:
