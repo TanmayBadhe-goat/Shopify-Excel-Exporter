@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Shopify Order Excel Exporter
-A desktop application to fetch Shopify orders and export them to a beautifully formatted Excel file.
+Shopify Order Automator v3.5
+Entry point — imports from the src/ package.
 """
 
-from gui import main
+from src.gui import main
 
 if __name__ == "__main__":
     main()

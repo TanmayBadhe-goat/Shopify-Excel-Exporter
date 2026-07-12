@@ -4,7 +4,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.drawing.image import Image as ExcelImage
 from datetime import datetime
 from pathlib import Path
-from utils import logger
+from .utils import logger
 
 class ExcelExporter:
     def __init__(self, export_dir="exports"):
@@ -26,14 +26,17 @@ class ExcelExporter:
             ("Payment Status", 15)
         ]
 
-    def export_orders_to_excel(self, orders_data, image_paths, remittance_data=None, is_remittance_report=False, include_images=True):
+    def export_orders_to_excel(self, orders_data, image_paths, remittance_data=None, is_remittance_report=False, include_images=True, enabled_columns=None):
         """
         Export orders to Excel. 
         - include_images: If False, skips image column and embedding.
         - remittance_data: If provided, adds remittance columns and highlights matches.
+        - enabled_columns: Optional list of column names to include.
+                           If None, uses all default columns (backwards compatible).
         """
         logger.info(f"Starting Excel export for {len(orders_data)} items...")
         logger.info(f"Include Product Images: {'YES' if include_images else 'NO'}")
+        logger.info(f"Custom columns: {'Yes' if enabled_columns else 'No (default)'}")
         
         workbook = openpyxl.Workbook()
         sheet = workbook.active
@@ -43,6 +46,9 @@ class ExcelExporter:
         column_configs = []
         for config in self.base_column_configs:
             if config[0] == "Image" and not include_images:
+                continue
+            # Apply column filtering if enabled_columns is specified
+            if enabled_columns is not None and config[0] not in enabled_columns:
                 continue
             column_configs.append(config)
             

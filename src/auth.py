@@ -5,8 +5,8 @@ import webbrowser
 import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import requests
-from config import Config
-from utils import logger
+from .config import Config
+from .utils import logger
 
 TOKEN_FILE = "shopify_token.json"
 

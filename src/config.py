@@ -2,6 +2,7 @@ import os
 import json
 from pathlib import Path
 from dotenv import load_dotenv
+from .utils import logger
 
 load_dotenv()
 
@@ -29,7 +30,7 @@ class Config:
                     cls.API_VERSION = data.get("api_version", cls.API_VERSION)
                     cls.ACCESS_TOKEN = data.get("access_token", cls.ACCESS_TOKEN)
             except Exception:
-                pass
+                logger.warning("Failed to load settings, using defaults.")
 
     @classmethod
     def save_settings(cls):
@@ -43,7 +44,7 @@ class Config:
             with open(cls.SETTINGS_FILE, 'w') as f:
                 json.dump(data, f)
         except Exception:
-            pass
+            logger.warning("Failed to save settings.")
 
     @classmethod
     def validate_config(cls):

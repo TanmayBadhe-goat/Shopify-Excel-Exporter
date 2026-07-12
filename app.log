@@ -4276,3 +4276,1172 @@
 2026-07-07 13:27:59,179 - INFO - Matched: 0
 2026-07-07 13:27:59,180 - INFO - Not Matched: 0
 2026-07-07 13:27:59,188 - INFO - Export Complete: exports\Orders_Remittance_2026-07-07_132759.xlsx
+2026-07-12 16:23:48,308 - INFO - Database initialized: orders.db
+2026-07-12 16:25:37,927 - INFO - Database initialized: orders.db
+2026-07-12 16:26:09,412 - INFO - Column preferences saved: 1 columns
+2026-07-12 16:26:25,038 - INFO - Fetching batch of orders... (Current count: 0)
+2026-07-12 16:26:27,525 - INFO - Successfully fetched 50 orders.
+2026-07-12 16:26:28,801 - INFO - [IMG] L3 – Fetching product 10383307735315 from Shopify
+2026-07-12 16:26:29,232 - INFO - [IMG] L3 – Product 10383307735315 cached successfully
+2026-07-12 16:26:29,233 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946741523
+2026-07-12 16:26:29,234 - INFO - [IMG] L3 – Fetching product 10383355019539 from Shopify
+2026-07-12 16:26:29,745 - INFO - [IMG] L3 – Product 10383355019539 cached successfully
+2026-07-12 16:26:29,745 - INFO - [IMG] P1 – Using variant image for product 10383355019539 / variant 54346107584787
+2026-07-12 16:26:29,746 - INFO - [IMG] L3 – Fetching product 10307520823571 from Shopify
+2026-07-12 16:26:30,256 - INFO - [IMG] L3 – Product 10307520823571 cached successfully
+2026-07-12 16:26:30,256 - INFO - [IMG] P3 – Using featured product image for product 10307520823571
+2026-07-12 16:26:30,257 - INFO - [IMG] P1 – Using variant image for product 10383355019539 / variant 54346107814163
+2026-07-12 16:26:30,258 - INFO - [IMG] L3 – Fetching product 10345273557267 from Shopify
+2026-07-12 16:26:30,721 - INFO - [IMG] L3 – Product 10345273557267 cached successfully
+2026-07-12 16:26:30,722 - INFO - [IMG] P1 – Using variant image for product 10345273557267 / variant 54333641818387
+2026-07-12 16:26:30,723 - INFO - [IMG] L3 – Fetching product 10316141756691 from Shopify
+2026-07-12 16:26:31,179 - INFO - [IMG] L3 – Product 10316141756691 cached successfully
+2026-07-12 16:26:31,180 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:31,181 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:31,182 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:31,183 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:31,183 - INFO - [IMG] L3 – Fetching product 10345230827795 from Shopify
+2026-07-12 16:26:31,792 - INFO - [IMG] L3 – Product 10345230827795 cached successfully
+2026-07-12 16:26:31,793 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 53952130384147
+2026-07-12 16:26:31,794 - INFO - [IMG] L3 – Fetching product 10313046688019 from Shopify
+2026-07-12 16:26:32,203 - INFO - [IMG] L3 – Product 10313046688019 cached successfully
+2026-07-12 16:26:32,204 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077125395
+2026-07-12 16:26:32,205 - INFO - [IMG] L3 – Fetching product 10383354233107 from Shopify
+2026-07-12 16:26:32,610 - INFO - [IMG] L3 – Product 10383354233107 cached successfully
+2026-07-12 16:26:32,611 - INFO - [IMG] P1 – Using variant image for product 10383354233107 / variant 54128934093075
+2026-07-12 16:26:32,611 - INFO - [IMG] L3 – Fetching product 10383348957459 from Shopify
+2026-07-12 16:26:33,021 - INFO - [IMG] L3 – Product 10383348957459 cached successfully
+2026-07-12 16:26:33,022 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934846739
+2026-07-12 16:26:33,022 - INFO - [IMG] L3 – Fetching product 10383163621651 from Shopify
+2026-07-12 16:26:33,430 - INFO - [IMG] L3 – Product 10383163621651 cached successfully
+2026-07-12 16:26:33,430 - INFO - [IMG] P1 – Using variant image for product 10383163621651 / variant 54335010046227
+2026-07-12 16:26:33,431 - INFO - [IMG] L3 – Fetching product 10307641377043 from Shopify
+2026-07-12 16:26:33,841 - INFO - [IMG] L3 – Product 10307641377043 cached successfully
+2026-07-12 16:26:33,842 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54325581447443
+2026-07-12 16:26:33,843 - INFO - [IMG] L3 – Fetching product 10439037649171 from Shopify
+2026-07-12 16:26:34,251 - INFO - [IMG] L3 – Product 10439037649171 cached successfully
+2026-07-12 16:26:34,252 - INFO - [IMG] P1 – Using variant image for product 10439037649171 / variant 54349902217491
+2026-07-12 16:26:34,253 - INFO - [IMG] P1 – Using variant image for product 10383355019539 / variant 54099698516243
+2026-07-12 16:26:34,254 - INFO - [IMG] L3 – Fetching product 10423992025363 from Shopify
+2026-07-12 16:26:34,660 - INFO - [IMG] L3 – Product 10423992025363 cached successfully
+2026-07-12 16:26:34,660 - INFO - [IMG] P1 – Using variant image for product 10423992025363 / variant 54275988783379
+2026-07-12 16:26:34,661 - INFO - [IMG] L3 – Fetching product 10255249932563 from Shopify
+2026-07-12 16:26:35,068 - INFO - [IMG] L3 – Product 10255249932563 cached successfully
+2026-07-12 16:26:35,068 - INFO - [IMG] P3 – Using featured product image for product 10255249932563
+2026-07-12 16:26:35,069 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221024019
+2026-07-12 16:26:35,070 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219352851
+2026-07-12 16:26:35,071 - INFO - [IMG] L3 – Fetching product 10312791949587 from Shopify
+2026-07-12 16:26:35,480 - INFO - [IMG] L3 – Product 10312791949587 cached successfully
+2026-07-12 16:26:35,480 - INFO - [IMG] P1 – Using variant image for product 10312791949587 / variant 54328008868115
+2026-07-12 16:26:35,481 - INFO - [IMG] L3 – Fetching product 10307530391827 from Shopify
+2026-07-12 16:26:35,883 - INFO - [IMG] L3 – Product 10307530391827 cached successfully
+2026-07-12 16:26:35,884 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54332201992467
+2026-07-12 16:26:35,885 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946807059
+2026-07-12 16:26:35,885 - INFO - [IMG] L3 – Fetching product 10345230860563 from Shopify
+2026-07-12 16:26:36,263 - INFO - [IMG] L3 – Product 10345230860563 cached successfully
+2026-07-12 16:26:36,263 - INFO - [IMG] P1 – Using variant image for product 10345230860563 / variant 54328051466515
+2026-07-12 16:26:36,263 - INFO - [IMG] L3 – Fetching product 10383320449299 from Shopify
+2026-07-12 16:26:36,711 - INFO - [IMG] L3 – Product 10383320449299 cached successfully
+2026-07-12 16:26:36,712 - INFO - [IMG] P1 – Using variant image for product 10383320449299 / variant 54346123706643
+2026-07-12 16:26:36,712 - INFO - [IMG] L3 – Fetching product 10307470065939 from Shopify
+2026-07-12 16:26:37,322 - INFO - [IMG] L3 – Product 10307470065939 cached successfully
+2026-07-12 16:26:37,323 - INFO - [IMG] P1 – Using variant image for product 10307470065939 / variant 54328169234707
+2026-07-12 16:26:37,324 - INFO - [IMG] L3 – Fetching product 10345231122707 from Shopify
+2026-07-12 16:26:37,730 - INFO - [IMG] L3 – Product 10345231122707 cached successfully
+2026-07-12 16:26:37,730 - INFO - [IMG] P1 – Using variant image for product 10345231122707 / variant 54328176279827
+2026-07-12 16:26:37,731 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:37,731 - INFO - [IMG] L3 – Fetching product 10345247310099 from Shopify
+2026-07-12 16:26:38,141 - INFO - [IMG] L3 – Product 10345247310099 cached successfully
+2026-07-12 16:26:38,142 - INFO - [IMG] P1 – Using variant image for product 10345247310099 / variant 54328073158931
+2026-07-12 16:26:38,142 - INFO - [IMG] L3 – Fetching product 10383271952659 from Shopify
+2026-07-12 16:26:38,551 - INFO - [IMG] L3 – Product 10383271952659 cached successfully
+2026-07-12 16:26:38,551 - INFO - [IMG] P1 – Using variant image for product 10383271952659 / variant 54332246950163
+2026-07-12 16:26:38,552 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:38,553 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221089555
+2026-07-12 16:26:38,554 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:26:38,555 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:26:38,556 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:38,556 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:38,557 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:38,557 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:38,558 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:26:38,558 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:38,559 - INFO - [IMG] P1 – Using variant image for product 10383320449299 / variant 54346123706643
+2026-07-12 16:26:38,560 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946807059
+2026-07-12 16:26:38,560 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54129085186323
+2026-07-12 16:26:38,561 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:38,561 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54325581283603
+2026-07-12 16:26:38,562 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221122323
+2026-07-12 16:26:38,562 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219483923
+2026-07-12 16:26:38,563 - INFO - [IMG] L3 – Fetching product 10307506340115 from Shopify
+2026-07-12 16:26:39,062 - INFO - [IMG] L3 – Product 10307506340115 cached successfully
+2026-07-12 16:26:39,063 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063656211
+2026-07-12 16:26:39,064 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:39,065 - INFO - [IMG] L3 – Fetching product 10317072793875 from Shopify
+2026-07-12 16:26:39,498 - INFO - [IMG] L3 – Product 10317072793875 cached successfully
+2026-07-12 16:26:39,499 - INFO - [IMG] P3 – Using featured product image for product 10317072793875
+2026-07-12 16:26:39,500 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:39,501 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077092627
+2026-07-12 16:26:39,502 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077125395
+2026-07-12 16:26:39,503 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:39,504 - INFO - [IMG] P1 – Using variant image for product 10345273557267 / variant 54333641949459
+2026-07-12 16:26:39,505 - INFO - [IMG] L3 – Fetching product 10334256595219 from Shopify
+2026-07-12 16:26:39,985 - INFO - [IMG] L3 – Product 10334256595219 cached successfully
+2026-07-12 16:26:39,986 - INFO - [IMG] P3 – Using featured product image for product 10334256595219
+2026-07-12 16:26:39,986 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063688979
+2026-07-12 16:26:39,987 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:39,988 - INFO - [IMG] L3 – Fetching product 10383672541459 from Shopify
+2026-07-12 16:26:40,497 - INFO - [IMG] L3 – Product 10383672541459 cached successfully
+2026-07-12 16:26:40,498 - INFO - [IMG] P1 – Using variant image for product 10383672541459 / variant 54346117742867
+2026-07-12 16:26:40,498 - INFO - [IMG] L3 – Fetching product 10312456536339 from Shopify
+2026-07-12 16:26:41,009 - INFO - [IMG] L3 – Product 10312456536339 cached successfully
+2026-07-12 16:26:41,010 - INFO - [IMG] P1 – Using variant image for product 10312456536339 / variant 54330463813907
+2026-07-12 16:26:41,011 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:41,012 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:41,013 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:41,013 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:41,014 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:41,015 - INFO - [IMG] P1 – Using variant image for product 10439037649171 / variant 54349923713299
+2026-07-12 16:26:41,015 - INFO - [IMG] L3 – Fetching product 10255249015059 from Shopify
+2026-07-12 16:26:41,418 - INFO - [IMG] L3 – Product 10255249015059 cached successfully
+2026-07-12 16:26:41,419 - INFO - [IMG] P3 – Using featured product image for product 10255249015059
+2026-07-12 16:26:41,420 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221122323
+2026-07-12 16:26:41,421 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:26:41,422 - INFO - [IMG] L3 – Fetching product 10383158575379 from Shopify
+2026-07-12 16:26:42,007 - INFO - [IMG] L3 – Product 10383158575379 cached successfully
+2026-07-12 16:26:42,008 - INFO - [IMG] P1 – Using variant image for product 10383158575379 / variant 54330075480339
+2026-07-12 16:26:42,009 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:42,010 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:26:42,011 - INFO - [IMG] L3 – Fetching product 10383355773203 from Shopify
+2026-07-12 16:26:42,647 - INFO - [IMG] L3 – Product 10383355773203 cached successfully
+2026-07-12 16:26:42,648 - INFO - [IMG] P1 – Using variant image for product 10383355773203 / variant 54099702939923
+2026-07-12 16:26:42,648 - INFO - [IMG] P1 – Using variant image for product 10383672541459 / variant 54102408560915
+2026-07-12 16:26:42,649 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54099531890963
+2026-07-12 16:26:42,650 - INFO - [IMG] P1 – Using variant image for product 10383320449299 / variant 54099573276947
+2026-07-12 16:26:42,687 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copyofsss_1.png?v=1777544441 -> product_10383307735315_54128946741523.png
+2026-07-12 16:26:42,689 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/66_b9abef24-d90f-4903-9bcc-5360967799b4.png?v=1777551897 -> product_10383355019539_54346107584787.png
+2026-07-12 16:26:42,693 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/image_1770884417805_oh34tl_ee8cadfe-dc87-4cac-8277-180d12405079.png?v=1771324510 -> product_10307520823571_54324124614931.png
+2026-07-12 16:26:42,695 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copy_of_iii_215a036d-4748-4b6a-af56-826e32cf97a9.png?v=1782478386 -> product_10383355019539_54346107814163.png
+2026-07-12 16:26:42,700 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/281_afdb4c1f-775b-4877-9d76-cb3d7e7d75ae.png?v=1773686719 -> product_10345273557267_54333641818387.png
+2026-07-12 16:26:42,706 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718905107.png
+2026-07-12 16:26:42,708 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182970392851.png
+2026-07-12 16:26:42,717 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718905107.png
+2026-07-12 16:26:42,732 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718806803.png
+2026-07-12 16:26:42,739 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copy_of_xgeytu_b356065c-1cb0-4c37-82cd-abd1576f5dcf.png?v=1782141266 -> product_10345230827795_53952130384147.png
+2026-07-12 16:26:52,433 - INFO - Successfully processed image: product_10307520823571_54324124614931.png
+2026-07-12 16:26:52,442 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1771484607053-fli30vzpyqe_71c65240-dc4c-405d-a06f-27551be43d24.avif?v=1782630248 -> product_10313046688019_54129077125395.png
+2026-07-12 16:26:54,294 - INFO - Successfully processed image: product_10313046688019_54129077125395.png
+2026-07-12 16:26:54,300 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Screenshot_2026-06-22_185217.png?v=1782134588 -> product_10383354233107_54128934093075.png
+2026-07-12 16:26:54,405 - INFO - Successfully processed image: product_10383355019539_54346107814163.png
+2026-07-12 16:26:54,410 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Screenshot_2026-06-22_183819.png?v=1782133854 -> product_10383348957459_54128934846739.png
+2026-07-12 16:26:55,886 - INFO - Successfully processed image: product_10383307735315_54128946741523.png
+2026-07-12 16:26:55,892 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1776933163044-hg4pti3kzrk_77120c18-147b-4771-93e6-4ef7aea1647b.png?v=1777529731 -> product_10383163621651_54335010046227.png
+2026-07-12 16:26:56,180 - INFO - Successfully processed image: product_10383354233107_54128934093075.png
+2026-07-12 16:26:56,185 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1770846593498-9h9ee1aaby8_2e8580c5-f5ae-481a-aa42-391003343f0a.png?v=1782197721 -> product_10307641377043_54325581447443.png
+2026-07-12 16:26:56,704 - INFO - Successfully processed image: product_10383348957459_54128934846739.png
+2026-07-12 16:26:56,708 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1770843127858-680mlv2uk4m.png?v=1782569223 -> product_10439037649171_54349902217491.png
+2026-07-12 16:26:59,990 - INFO - Successfully processed image: product_10383355019539_54346107584787.png
+2026-07-12 16:26:59,996 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/66_b9abef24-d90f-4903-9bcc-5360967799b4.png?v=1777551897 -> product_10383355019539_54099698516243.png
+2026-07-12 16:27:01,166 - INFO - Successfully processed image: product_10383163621651_54335010046227.png
+2026-07-12 16:27:01,173 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copyoffff_c6f13ff3-cba9-4845-8326-a088c0d1ab00.png?v=1781216339 -> product_10423992025363_54275988783379.png
+2026-07-12 16:27:03,411 - INFO - Successfully processed image: product_10345230827795_53952130384147.png
+2026-07-12 16:27:03,428 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/101_2566c616-6046-4383-ab55-81c60b1f1c77.png?v=1767699075 -> product_10255249932563_52882474336531.png
+2026-07-12 16:27:05,234 - INFO - Successfully processed image: product_10383355019539_54099698516243.png
+2026-07-12 16:27:05,245 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/95_8be48c09-0306-4542-830e-ed251c3a5245.png?v=1773679761 -> product_10345230827795_54149221024019.png
+2026-07-12 16:27:05,519 - INFO - Successfully processed image: product_10255249932563_52882474336531.png
+2026-07-12 16:27:05,524 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/81_b73c6403-6da5-438a-a807-30285c2b7e2e.png?v=1782140908 -> product_10313046688019_54149219352851.png
+2026-07-12 16:27:08,006 - INFO - Successfully processed image: product_10345273557267_54333641818387.png
+2026-07-12 16:27:08,013 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/4cfa44922ccef883838077bf9a8cc485_1782206825_i4it5po4.png?v=1782246414 -> product_10312791949587_54328008868115.png
+2026-07-12 16:27:10,629 - INFO - Successfully processed image: product_10439037649171_54349902217491.png
+2026-07-12 16:27:10,635 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1770892082023-bq4s41ixnd_77ccef9c-7817-4af7-85ad-26a600b4a656.png?v=1771325557 -> product_10307530391827_54332201992467.png
+2026-07-12 16:27:14,430 - INFO - Successfully processed image: product_10345230827795_54149221024019.png
+2026-07-12 16:27:14,438 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copyofsss_1.png?v=1777544441 -> product_10383307735315_54128946807059.png
+2026-07-12 16:27:16,079 - INFO - Successfully processed image: product_10313046688019_54149219352851.png
+2026-07-12 16:27:16,089 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copyof706bf4e1afbecc5d5cd7b633f36dbd14_1782206551840_89d2f185-dae4-4cd9-ad00-19c2154f87b1.png?v=1782248869 -> product_10345230860563_54328051466515.png
+2026-07-12 16:27:16,444 - INFO - Successfully processed image: product_10307530391827_54332201992467.png
+2026-07-12 16:27:16,451 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/55_05c259f7-ba20-41ba-a2b6-15b72bd6b0fa.png?v=1777545972 -> product_10383320449299_54346123706643.png
+2026-07-12 16:27:18,695 - INFO - Successfully processed image: product_10345230860563_54328051466515.png
+2026-07-12 16:27:18,700 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/image_1770888939173_5fdpk3_1_b0a4665c-1699-4ab6-a628-2874e8a2c295.png?v=1782253135 -> product_10307470065939_54328169234707.png
+2026-07-12 16:27:20,472 - INFO - Successfully processed image: product_10383320449299_54346123706643.png
+2026-07-12 16:27:20,478 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/173_f00b0880-9f13-45b4-b6e7-bb9bfbbeb34d.png?v=1782253380 -> product_10345231122707_54328176279827.png
+2026-07-12 16:27:28,131 - INFO - Successfully processed image: product_10423992025363_54275988783379.png
+2026-07-12 16:27:28,138 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718872339.png
+2026-07-12 16:27:28,339 - INFO - Successfully processed image: product_10383307735315_54128946807059.png
+2026-07-12 16:27:28,344 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/259_1a655c56-2605-4793-ad6d-94ce381a634d.png?v=1782250137 -> product_10345247310099_54328073158931.png
+2026-07-12 16:27:29,698 - INFO - Successfully processed image: product_10307470065939_54328169234707.png
+2026-07-12 16:27:29,707 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Screenshot_2026-06-22_185933.png?v=1782135001 -> product_10383271952659_54332246950163.png
+2026-07-12 16:27:32,475 - INFO - Successfully processed image: product_10383271952659_54332246950163.png
+2026-07-12 16:27:32,482 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182958432531.png
+2026-07-12 16:27:35,327 - INFO - Successfully processed image: product_10312791949587_54328008868115.png
+2026-07-12 16:27:35,333 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copy_of_xgeytu_b356065c-1cb0-4c37-82cd-abd1576f5dcf.png?v=1782141266 -> product_10345230827795_54149221089555.png
+2026-07-12 16:27:36,806 - INFO - Successfully processed image: product_10307641377043_54325581447443.png
+2026-07-12 16:27:36,813 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1771484607053-fli30vzpyqe_71c65240-dc4c-405d-a06f-27551be43d24.avif?v=1782630248 -> product_10313046688019_54149219418387.png
+2026-07-12 16:27:39,924 - INFO - Successfully processed image: product_10313046688019_54149219418387.png
+2026-07-12 16:27:39,934 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/81_b73c6403-6da5-438a-a807-30285c2b7e2e.png?v=1782140908 -> product_10313046688019_54149219320083.png
+2026-07-12 16:27:43,672 - INFO - Successfully processed image: product_10345247310099_54328073158931.png
+2026-07-12 16:27:43,680 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173719003411.png
+2026-07-12 16:27:45,056 - INFO - Successfully processed image: product_10316141756691_54173718872339.png
+2026-07-12 16:27:45,069 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182935462163.png
+2026-07-12 16:27:49,268 - INFO - Successfully processed image: product_10345231122707_54328176279827.png
+2026-07-12 16:27:49,276 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/81_b73c6403-6da5-438a-a807-30285c2b7e2e.png?v=1782140908 -> product_10313046688019_54149219320083.png
+2026-07-12 16:27:51,516 - INFO - Successfully processed image: product_10345230827795_54149221089555.png
+2026-07-12 16:27:51,525 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182970458387.png
+2026-07-12 16:27:54,651 - INFO - Successfully processed image: product_10316141756691_54173718905107.png
+2026-07-12 16:27:54,664 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1770891637143-lwqkiu76vvf_c0d2d88e-1b52-4528-bd56-648bc7cba4c1.png?v=1782324423 -> product_10307530391827_54129085186323.png
+2026-07-12 16:27:56,629 - INFO - Successfully processed image: product_10316141756691_54182970392851.png
+2026-07-12 16:27:56,641 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_53857264435475.png
+2026-07-12 16:27:58,033 - INFO - Successfully processed image: product_10313046688019_54149219320083.png
+2026-07-12 16:27:58,040 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/image_1771064382817_vkv2yz_bc7ca9be-57d6-4a9e-ab6e-382e740b3b6a.png?v=1771328508 -> product_10307641377043_54325581283603.png
+2026-07-12 16:28:01,884 - INFO - Successfully processed image: product_10307530391827_54129085186323.png
+2026-07-12 16:28:01,891 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copy_of_xgeytu_b356065c-1cb0-4c37-82cd-abd1576f5dcf.png?v=1782141266 -> product_10345230827795_54149221122323.png
+2026-07-12 16:28:12,273 - INFO - Successfully processed image: product_10345230827795_54149221122323.png
+2026-07-12 16:28:12,282 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1771484607053-fli30vzpyqe_71c65240-dc4c-405d-a06f-27551be43d24.avif?v=1782630248 -> product_10313046688019_54149219483923.png
+2026-07-12 16:28:14,105 - INFO - Successfully processed image: product_10316141756691_54173718806803.png
+2026-07-12 16:28:14,122 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1770899815170-ztdbzdkynj_b6103554-bfd0-44e4-a6c4-329c41e2bd07.jpg?v=1771329961 -> product_10307506340115_54328063656211.png
+2026-07-12 16:28:14,474 - INFO - Successfully processed image: product_10313046688019_54149219483923.png
+2026-07-12 16:28:14,479 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/89_b226f521-8f81-4d65-a8c8-695f65d97acf.png?v=1772046011 -> product_10317072793875_53958167953683.png
+2026-07-12 16:28:14,922 - INFO - Successfully processed image: product_10307641377043_54325581283603.png
+2026-07-12 16:28:14,929 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182935462163.png
+2026-07-12 16:28:15,130 - INFO - Successfully processed image: product_10313046688019_54149219320083.png
+2026-07-12 16:28:15,136 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/81_b73c6403-6da5-438a-a807-30285c2b7e2e.png?v=1782140908 -> product_10313046688019_54129077092627.png
+2026-07-12 16:28:17,049 - INFO - Successfully processed image: product_10307506340115_54328063656211.png
+2026-07-12 16:28:17,055 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173719003411.png
+2026-07-12 16:28:17,454 - INFO - Successfully processed image: product_10316141756691_54182935462163.png
+2026-07-12 16:28:17,465 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/280_5d7d7a27-13f0-4958-a377-bbcd01a8c52a.png?v=1782369371 -> product_10345273557267_54333641949459.png
+2026-07-12 16:28:18,003 - INFO - Successfully processed image: product_10316141756691_54173718905107.png
+2026-07-12 16:28:18,015 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/studio_image_sunglass_2026-03-08_14-51.png?v=1773029536 -> product_10334256595219_53924883005715.png
+2026-07-12 16:28:18,534 - INFO - Successfully processed image: product_10316141756691_54182958432531.png
+2026-07-12 16:28:18,544 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1770899815170-ztdbzdkynj_b6103554-bfd0-44e4-a6c4-329c41e2bd07.jpg?v=1771329961 -> product_10307506340115_54328063688979.png
+2026-07-12 16:28:20,890 - INFO - Successfully processed image: product_10307506340115_54328063688979.png
+2026-07-12 16:28:20,895 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718839571.png
+2026-07-12 16:28:27,423 - INFO - Successfully processed image: product_10313046688019_54129077092627.png
+2026-07-12 16:28:27,438 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copy_of_Copy_of_qqweqwD_1_ceea1f14-a4d7-41cd-9e7b-d1b2170cf669.png?v=1782478801 -> product_10383672541459_54346117742867.png
+2026-07-12 16:28:41,657 - INFO - Successfully processed image: product_10383672541459_54346117742867.png
+2026-07-12 16:28:41,664 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/image_1770887179734_m82ryo_1_f8878da4-80eb-4aa4-9002-76055d883783.png?v=1771428701 -> product_10312456536339_54330463813907.png
+2026-07-12 16:28:43,198 - INFO - Successfully processed image: product_10316141756691_54173719003411.png
+2026-07-12 16:28:43,208 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718839571.png
+2026-07-12 16:28:43,539 - INFO - Successfully processed image: product_10345273557267_54333641949459.png
+2026-07-12 16:28:43,546 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182958399763.png
+2026-07-12 16:28:45,963 - INFO - Successfully processed image: product_10316141756691_53857264435475.png
+2026-07-12 16:28:45,980 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/1771041264840-hk199y534bf_1_73ac338d-0222-408f-833d-22605520168e.png?v=1782572887 -> product_10439037649171_54349923713299.png
+2026-07-12 16:28:53,933 - INFO - Successfully processed image: product_10317072793875_53958167953683.png
+2026-07-12 16:28:53,944 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/40_cb31a716-01f3-47e1-b855-7e6c7770ef5e.png?v=1767697655 -> product_10255249015059_52882472501523.png
+2026-07-12 16:28:54,726 - INFO - Successfully processed image: product_10316141756691_54182970458387.png
+2026-07-12 16:28:54,737 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copy_of_tug.png?v=1777527797 -> product_10383158575379_54330075480339.png
+2026-07-12 16:28:57,607 - INFO - Successfully processed image: product_10312456536339_54330463813907.png
+2026-07-12 16:28:57,615 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/72_97f10abb-1ecf-4f92-a809-c91043eb405e.png?v=1777552675 -> product_10383355773203_54099702939923.png
+2026-07-12 16:28:58,933 - INFO - Successfully processed image: product_10255249015059_52882472501523.png
+2026-07-12 16:28:58,938 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/CopyofCopyofpepeiocae_5b982c1d-6a74-463b-b8f3-52da7abbe5d9.jpg?v=1777615505 -> product_10383672541459_54102408560915.png
+2026-07-12 16:29:01,361 - INFO - Successfully processed image: product_10439037649171_54349923713299.png
+2026-07-12 16:29:01,368 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/Copyofsss_1.png?v=1777544441 -> product_10383307735315_54099531890963.png
+2026-07-12 16:29:01,824 - INFO - Successfully processed image: product_10383672541459_54102408560915.png
+2026-07-12 16:29:01,829 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/55_05c259f7-ba20-41ba-a2b6-15b72bd6b0fa.png?v=1777545972 -> product_10383320449299_54099573276947.png
+2026-07-12 16:29:06,083 - INFO - Successfully processed image: product_10383158575379_54330075480339.png
+2026-07-12 16:29:08,208 - INFO - Successfully processed image: product_10316141756691_54182935462163.png
+2026-07-12 16:29:09,893 - INFO - Successfully processed image: product_10383307735315_54099531890963.png
+2026-07-12 16:29:12,407 - INFO - Successfully processed image: product_10383320449299_54099573276947.png
+2026-07-12 16:29:13,299 - INFO - Successfully processed image: product_10316141756691_54173718839571.png
+2026-07-12 16:29:14,492 - INFO - Successfully processed image: product_10334256595219_53924883005715.png
+2026-07-12 16:29:15,601 - INFO - Successfully processed image: product_10383355773203_54099702939923.png
+2026-07-12 16:29:15,738 - INFO - Successfully processed image: product_10316141756691_54182958399763.png
+2026-07-12 16:29:16,681 - INFO - Successfully processed image: product_10316141756691_54173719003411.png
+2026-07-12 16:29:16,742 - INFO - Successfully processed image: product_10316141756691_54173718839571.png
+2026-07-12 16:29:16,812 - INFO - Starting Excel export for 77 items...
+2026-07-12 16:29:16,813 - INFO - Include Product Images: YES
+2026-07-12 16:29:16,813 - INFO - Custom columns: Yes
+2026-07-12 16:29:17,687 - INFO - Export Complete: exports\Shopify_Orders_2026-07-12_162917.xlsx
+2026-07-12 16:30:32,821 - INFO - Searching orders for keywords: ['elevate active jacket'] (Range: 1050 to 2100)
+2026-07-12 16:31:16,231 - INFO - Searching orders for keywords: ['elevate active jackets'] (Range: 2050 to 2100)
+2026-07-12 16:31:18,384 - INFO - Reached order #2049 (below min 2050). Stopping search.
+2026-07-12 16:31:25,829 - INFO - Searching orders for keywords: ['elevate active jacket'] (Range: 2050 to 2100)
+2026-07-12 16:31:28,451 - INFO - Reached order #2049 (below min 2050). Stopping search.
+2026-07-12 16:31:32,107 - INFO - [IMG] L3 – Fetching product 10316141756691 from Shopify
+2026-07-12 16:31:32,982 - INFO - [IMG] L3 – Product 10316141756691 cached successfully
+2026-07-12 16:31:32,982 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,983 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,984 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,985 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,986 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,986 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,987 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,987 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,988 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,989 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,990 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,990 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,991 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,991 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,992 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,992 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,993 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,993 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,994 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,995 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,995 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,996 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,996 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,998 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,998 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:32,999 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:33,000 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:33,000 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:31:33,050 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718970643.png
+2026-07-12 16:31:33,060 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718970643.png
+2026-07-12 16:31:33,064 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182909182227.png
+2026-07-12 16:31:33,070 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54182909182227.png
+2026-07-12 16:31:33,073 - INFO - Downloading image: https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293 -> product_10316141756691_54173718937875.png
+2026-07-12 16:31:44,039 - INFO - Database initialized: orders.db
+2026-07-12 16:31:53,221 - INFO - Successfully processed image: product_10316141756691_54182909182227.png
+2026-07-12 16:32:00,172 - INFO - Successfully processed image: product_10316141756691_54182909182227.png
+2026-07-12 16:32:00,760 - ERROR - Failed to download image https://cdn.shopify.com/s/files/1/0825/9918/2611/files/8cc8f4935c258207446787a4d8fa6616_1_1778934874_1050.png?v=1778936293: broken PNG file (chunk b'"D\xec\x9d')
+2026-07-12 16:32:01,490 - INFO - Successfully processed image: product_10316141756691_54173718937875.png
+2026-07-12 16:32:02,041 - INFO - Successfully processed image: product_10316141756691_54173718970643.png
+2026-07-12 16:32:02,152 - INFO - Starting Excel export for 28 items...
+2026-07-12 16:32:02,153 - INFO - Include Product Images: YES
+2026-07-12 16:32:02,154 - INFO - Custom columns: Yes
+2026-07-12 16:32:02,472 - INFO - Export Complete: exports\Shopify_Orders_2026-07-12_163202.xlsx
+2026-07-12 16:32:17,283 - INFO - Starting full database sync (all orders)...
+2026-07-12 16:32:17,298 - INFO - Fetching batch of orders... (Current count: 0)
+2026-07-12 16:32:20,214 - INFO - Fetching batch of orders... (Current count: 250)
+2026-07-12 16:32:22,178 - INFO - Fetching batch of orders... (Current count: 500)
+2026-07-12 16:32:23,150 - INFO - Successfully fetched 540 orders.
+2026-07-12 16:32:23,150 - INFO - Enriching 540 orders with color/size/image...
+2026-07-12 16:32:23,641 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946741523
+2026-07-12 16:32:24,005 - INFO - [IMG] P1 – Using variant image for product 10383355019539 / variant 54346107584787
+2026-07-12 16:32:24,462 - INFO - [IMG] P3 – Using featured product image for product 10307520823571
+2026-07-12 16:32:24,465 - INFO - [IMG] P1 – Using variant image for product 10383355019539 / variant 54346107814163
+2026-07-12 16:32:24,870 - INFO - [IMG] P1 – Using variant image for product 10345273557267 / variant 54333641818387
+2026-07-12 16:32:25,280 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:25,285 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:25,288 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:25,292 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:25,791 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 53952130384147
+2026-07-12 16:32:26,201 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077125395
+2026-07-12 16:32:26,611 - INFO - [IMG] P1 – Using variant image for product 10383354233107 / variant 54128934093075
+2026-07-12 16:32:27,020 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934846739
+2026-07-12 16:32:27,429 - INFO - [IMG] P1 – Using variant image for product 10383163621651 / variant 54335010046227
+2026-07-12 16:32:27,839 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54325581447443
+2026-07-12 16:32:28,249 - INFO - [IMG] P1 – Using variant image for product 10439037649171 / variant 54349902217491
+2026-07-12 16:32:28,252 - INFO - [IMG] P1 – Using variant image for product 10383355019539 / variant 54099698516243
+2026-07-12 16:32:28,659 - INFO - [IMG] P1 – Using variant image for product 10423992025363 / variant 54275988783379
+2026-07-12 16:32:29,068 - INFO - [IMG] P3 – Using featured product image for product 10255249932563
+2026-07-12 16:32:29,073 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221024019
+2026-07-12 16:32:29,076 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219352851
+2026-07-12 16:32:29,579 - INFO - [IMG] P1 – Using variant image for product 10312791949587 / variant 54328008868115
+2026-07-12 16:32:29,989 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54332201992467
+2026-07-12 16:32:29,993 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946807059
+2026-07-12 16:32:30,401 - INFO - [IMG] P1 – Using variant image for product 10345230860563 / variant 54328051466515
+2026-07-12 16:32:31,014 - INFO - [IMG] P1 – Using variant image for product 10383320449299 / variant 54346123706643
+2026-07-12 16:32:31,422 - INFO - [IMG] P1 – Using variant image for product 10307470065939 / variant 54328169234707
+2026-07-12 16:32:31,833 - INFO - [IMG] P1 – Using variant image for product 10345231122707 / variant 54328176279827
+2026-07-12 16:32:31,837 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,243 - INFO - [IMG] P1 – Using variant image for product 10345247310099 / variant 54328073158931
+2026-07-12 16:32:32,623 - INFO - [IMG] P1 – Using variant image for product 10383271952659 / variant 54332246950163
+2026-07-12 16:32:32,628 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,637 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221089555
+2026-07-12 16:32:32,642 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:32:32,649 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:32:32,659 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,664 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,666 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,679 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,681 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:32:32,689 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,694 - INFO - [IMG] P1 – Using variant image for product 10383320449299 / variant 54346123706643
+2026-07-12 16:32:32,695 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946807059
+2026-07-12 16:32:32,697 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54129085186323
+2026-07-12 16:32:32,712 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:32,721 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54325581283603
+2026-07-12 16:32:32,728 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221122323
+2026-07-12 16:32:32,733 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219483923
+2026-07-12 16:32:33,266 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063656211
+2026-07-12 16:32:33,270 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:33,677 - INFO - [IMG] P3 – Using featured product image for product 10317072793875
+2026-07-12 16:32:33,683 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:33,688 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077092627
+2026-07-12 16:32:33,691 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077125395
+2026-07-12 16:32:33,695 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:33,696 - INFO - [IMG] P1 – Using variant image for product 10345273557267 / variant 54333641949459
+2026-07-12 16:32:34,103 - INFO - [IMG] P3 – Using featured product image for product 10334256595219
+2026-07-12 16:32:34,111 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063688979
+2026-07-12 16:32:34,114 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:34,597 - INFO - [IMG] P1 – Using variant image for product 10383672541459 / variant 54346117742867
+2026-07-12 16:32:35,214 - INFO - [IMG] P1 – Using variant image for product 10312456536339 / variant 54330463813907
+2026-07-12 16:32:35,234 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:35,236 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:35,266 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:35,270 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:35,291 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:35,306 - INFO - [IMG] P1 – Using variant image for product 10439037649171 / variant 54349923713299
+2026-07-12 16:32:35,726 - INFO - [IMG] P3 – Using featured product image for product 10255249015059
+2026-07-12 16:32:35,739 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221122323
+2026-07-12 16:32:35,740 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:32:36,341 - INFO - [IMG] P1 – Using variant image for product 10383158575379 / variant 54330075480339
+2026-07-12 16:32:36,347 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:36,358 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:36,952 - INFO - [IMG] P1 – Using variant image for product 10383355773203 / variant 54099702939923
+2026-07-12 16:32:36,956 - INFO - [IMG] P1 – Using variant image for product 10383672541459 / variant 54102408560915
+2026-07-12 16:32:36,960 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54099531890963
+2026-07-12 16:32:36,963 - INFO - [IMG] P1 – Using variant image for product 10383320449299 / variant 54099573276947
+2026-07-12 16:32:36,971 - INFO - Processed 50/540 orders...
+2026-07-12 16:32:36,996 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:37,002 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:37,005 - INFO - [IMG] P1 – Using variant image for product 10383355773203 / variant 54346119119123
+2026-07-12 16:32:37,018 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:32:37,566 - INFO - [IMG] P1 – Using variant image for product 10383372189971 / variant 54099790856467
+2026-07-12 16:32:37,998 - INFO - [IMG] P1 – Using variant image for product 10383175614739 / variant 54330080297235
+2026-07-12 16:32:38,023 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149220958483
+2026-07-12 16:32:38,029 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:32:38,047 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,049 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149220991251
+2026-07-12 16:32:38,056 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:32:38,065 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,073 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,082 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063721747
+2026-07-12 16:32:38,097 - INFO - [IMG] P1 – Using variant image for product 10312791949587 / variant 54129077387539
+2026-07-12 16:32:38,111 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,112 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,123 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,130 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,176 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,186 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063656211
+2026-07-12 16:32:38,188 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,191 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:38,694 - INFO - [IMG] P1 – Using variant image for product 10296169333011 / variant 54328065196307
+2026-07-12 16:32:38,718 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 53952130351379
+2026-07-12 16:32:38,723 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077092627
+2026-07-12 16:32:38,732 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:39,411 - INFO - [IMG] P1 – Using variant image for product 10345247179027 / variant 54333888299283
+2026-07-12 16:32:39,442 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149220958483
+2026-07-12 16:32:39,443 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:32:39,445 - INFO - [IMG] P1 – Using variant image for product 10383354233107 / variant 54128933929235
+2026-07-12 16:32:39,451 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934682899
+2026-07-12 16:32:40,027 - INFO - [IMG] P3 – Using featured product image for product 10383284011283
+2026-07-12 16:32:40,638 - INFO - [IMG] P1 – Using variant image for product 10383291646227 / variant 54350736392467
+2026-07-12 16:32:40,643 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:40,652 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:40,656 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,153 - INFO - [IMG] P3 – Using featured product image for product 10376661270803
+2026-07-12 16:32:41,159 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,173 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,175 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54099531923731
+2026-07-12 16:32:41,178 - INFO - [IMG] P1 – Using variant image for product 10383320449299 / variant 54099573309715
+2026-07-12 16:32:41,186 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,666 - INFO - [IMG] P3 – Using featured product image for product 10376660910355
+2026-07-12 16:32:41,676 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54129085251859
+2026-07-12 16:32:41,682 - INFO - [IMG] P1 – Using variant image for product 10383175614739 / variant 54099258114323
+2026-07-12 16:32:41,710 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 53952130351379
+2026-07-12 16:32:41,712 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077092627
+2026-07-12 16:32:41,761 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,793 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,836 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,841 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063787283
+2026-07-12 16:32:41,849 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,859 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,873 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:41,878 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:32:42,485 - INFO - [IMG] P1 – Using variant image for product 10383324283155 / variant 54335444386067
+2026-07-12 16:32:42,492 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063721747
+2026-07-12 16:32:42,493 - INFO - [IMG] P1 – Using variant image for product 10312456536339 / variant 53843401310483
+2026-07-12 16:32:43,096 - INFO - [IMG] P3 – Using featured product image for product 10378648158483
+2026-07-12 16:32:43,534 - INFO - [IMG] P1 – Using variant image for product 10286114275603 / variant 54332202516755
+2026-07-12 16:32:44,120 - INFO - [IMG] P1 – Using variant image for product 10378647830803 / variant 54349929152787
+2026-07-12 16:32:44,125 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54325581381907
+2026-07-12 16:32:44,738 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54129069654291
+2026-07-12 16:32:45,229 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128994189587
+2026-07-12 16:32:45,238 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219483923
+2026-07-12 16:32:45,240 - INFO - [IMG] P1 – Using variant image for product 10383175614739 / variant 54330080362771
+2026-07-12 16:32:45,283 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077125395
+2026-07-12 16:32:45,284 - INFO - [IMG] P1 – Using variant image for product 10383175614739 / variant 54099258114323
+2026-07-12 16:32:45,294 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:45,760 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217812755
+2026-07-12 16:32:45,767 - INFO - [IMG] P3 – Using featured product image for product 10378648158483
+2026-07-12 16:32:45,771 - INFO - [IMG] P3 – Using featured product image for product 10317072793875
+2026-07-12 16:32:45,777 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:45,785 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:32:45,817 - INFO - Processed 100/540 orders...
+2026-07-12 16:32:45,841 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:45,842 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54328063754515
+2026-07-12 16:32:45,852 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:45,871 - INFO - [IMG] P1 – Using variant image for product 10378647830803 / variant 54349929218323
+2026-07-12 16:32:45,894 - INFO - [IMG] P3 – Using featured product image for product 10307520823571
+2026-07-12 16:32:46,338 - INFO - [IMG] P1 – Using variant image for product 10383171223827 / variant 54335068537107
+2026-07-12 16:32:46,988 - INFO - [IMG] P1 – Using variant image for product 10307402105107 / variant 54334867833107
+2026-07-12 16:32:47,603 - INFO - [IMG] P1 – Using variant image for product 10383162802451 / variant 54128975839507
+2026-07-12 16:32:48,219 - INFO - [IMG] P3 – Using featured product image for product 10038879191315
+2026-07-12 16:32:48,662 - INFO - [IMG] P1 – Using variant image for product 10286070202643 / variant 54120115536147
+2026-07-12 16:32:48,667 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218315539
+2026-07-12 16:32:48,685 - INFO - [IMG] P3 – Using featured product image for product 10334256595219
+2026-07-12 16:32:48,692 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:48,703 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:49,244 - INFO - [IMG] P1 – Using variant image for product 10286114636051 / variant 54330102907155
+2026-07-12 16:32:49,266 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:49,276 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:49,333 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:49,400 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218315539
+2026-07-12 16:32:49,431 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54332201959699
+2026-07-12 16:32:49,436 - INFO - [IMG] P1 – Using variant image for product 10383158575379 / variant 54330075513107
+2026-07-12 16:32:49,441 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:49,460 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:50,063 - INFO - [IMG] P1 – Using variant image for product 10378682827027 / variant 54083675554067
+2026-07-12 16:32:50,679 - INFO - [IMG] P1 – Using variant image for product 10286070137107 / variant 54129099309331
+2026-07-12 16:32:50,688 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54075824636179
+2026-07-12 16:32:50,699 - INFO - [IMG] P1 – Using variant image for product 10378682827027 / variant 54083675521299
+2026-07-12 16:32:51,182 - INFO - [IMG] P1 – Using variant image for product 10376661762323 / variant 54076218540307
+2026-07-12 16:32:51,192 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:51,203 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:51,698 - INFO - [IMG] P1 – Using variant image for product 10312452309267 / variant 54332184625427
+2026-07-12 16:32:51,703 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:32:51,704 - INFO - [IMG] P1 – Using variant image for product 10383175614739 / variant 54330080198931
+2026-07-12 16:32:51,714 - INFO - [IMG] P3 – Using featured product image for product 10307520823571
+2026-07-12 16:32:52,312 - INFO - [IMG] P3 – Using featured product image for product 10312793522451
+2026-07-12 16:32:52,318 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54129069687059
+2026-07-12 16:32:52,334 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:52,929 - INFO - [IMG] P1 – Using variant image for product 10286102118675 / variant 54330404929811
+2026-07-12 16:32:52,940 - INFO - [IMG] P1 – Using variant image for product 10286102118675 / variant 54330404831507
+2026-07-12 16:32:52,951 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:52,955 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:53,542 - INFO - [IMG] P3 – Using featured product image for product 10383358001427
+2026-07-12 16:32:53,547 - INFO - [IMG] P3 – Using featured product image for product 10383372189971
+2026-07-12 16:32:53,552 - INFO - [IMG] P3 – Using featured product image for product 10312793522451
+2026-07-12 16:32:53,556 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:53,557 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:53,569 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:53,578 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:54,156 - INFO - [IMG] P3 – Using featured product image for product 10255248654611
+2026-07-12 16:32:54,168 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54075824636179
+2026-07-12 16:32:54,182 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:54,183 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:54,184 - INFO - [IMG] P3 – Using featured product image for product 10286102118675
+2026-07-12 16:32:54,200 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:54,294 - INFO - [IMG] P1 – Using variant image for product 10383354233107 / variant 54099656016147
+2026-07-12 16:32:54,328 - INFO - [IMG] P3 – Using featured product image for product 10383171223827
+2026-07-12 16:32:54,975 - INFO - [IMG] P3 – Using featured product image for product 10307637477651
+2026-07-12 16:32:54,983 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54325581250835
+2026-07-12 16:32:54,991 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946741523
+2026-07-12 16:32:55,009 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:55,025 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:55,052 - INFO - [IMG] P3 – Using featured product image for product 10383320449299
+2026-07-12 16:32:55,089 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217747219
+2026-07-12 16:32:55,116 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:55,136 - INFO - [IMG] P3 – Using featured product image for product 10317072793875
+2026-07-12 16:32:55,162 - INFO - [IMG] P3 – Using featured product image for product 10378648158483
+2026-07-12 16:32:55,999 - INFO - [IMG] P1 – Using variant image for product 10378648322323 / variant 54083312419091
+2026-07-12 16:32:56,006 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:56,614 - INFO - [IMG] P3 – Using featured product image for product 10345230958867
+2026-07-12 16:32:56,620 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:32:56,637 - INFO - Processed 150/540 orders...
+2026-07-12 16:32:56,650 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:56,666 - INFO - [IMG] P1 – Using variant image for product 10383158575379 / variant 54099185402131
+2026-07-12 16:32:56,674 - INFO - [IMG] P1 – Using variant image for product 10383158575379 / variant 54099185369363
+2026-07-12 16:32:56,683 - INFO - [IMG] P1 – Using variant image for product 10383372189971 / variant 54099790856467
+2026-07-12 16:32:56,684 - INFO - [IMG] P1 – Using variant image for product 10383372189971 / variant 54099790790931
+2026-07-12 16:32:56,693 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217812755
+2026-07-12 16:32:56,723 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:56,742 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:57,435 - INFO - [IMG] P3 – Using featured product image for product 10383156904211
+2026-07-12 16:32:58,048 - INFO - [IMG] P3 – Using featured product image for product 10286114930963
+2026-07-12 16:32:58,054 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:58,069 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993861907
+2026-07-12 16:32:58,586 - INFO - [IMG] P3 – Using featured product image for product 10286102511891
+2026-07-12 16:32:59,073 - INFO - [IMG] P3 – Using featured product image for product 10333575282963
+2026-07-12 16:32:59,091 - INFO - [IMG] P1 – Using variant image for product 10312791949587 / variant 54129077322003
+2026-07-12 16:32:59,097 - INFO - [IMG] P1 – Using variant image for product 10345230860563 / variant 53952133726483
+2026-07-12 16:32:59,685 - INFO - [IMG] P3 – Using featured product image for product 10383298035987
+2026-07-12 16:32:59,692 - INFO - [IMG] P3 – Using featured product image for product 10378682827027
+2026-07-12 16:32:59,697 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54129069687059
+2026-07-12 16:32:59,698 - INFO - [IMG] P3 – Using featured product image for product 10345247179027
+2026-07-12 16:32:59,703 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:32:59,708 - INFO - [IMG] P3 – Using featured product image for product 10317072793875
+2026-07-12 16:33:00,301 - INFO - [IMG] P3 – Using featured product image for product 10286070300947
+2026-07-12 16:33:00,314 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:00,323 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:00,917 - INFO - [IMG] P1 – Using variant image for product 10307335160083 / variant 54129094263059
+2026-07-12 16:33:00,953 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:00,975 - INFO - [IMG] P1 – Using variant image for product 10312793522451 / variant 54129077289235
+2026-07-12 16:33:01,529 - INFO - [IMG] P1 – Using variant image for product 10345247277331 / variant 53952156074259
+2026-07-12 16:33:01,534 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:01,544 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:01,545 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:01,546 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:01,567 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:01,574 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:01,590 - INFO - [IMG] P3 – Using featured product image for product 10383163621651
+2026-07-12 16:33:02,020 - INFO - [IMG] P3 – Using featured product image for product 10383164571923
+2026-07-12 16:33:02,036 - INFO - [IMG] P3 – Using featured product image for product 10376661270803
+2026-07-12 16:33:02,053 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:02,081 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:02,107 - INFO - [IMG] P1 – Using variant image for product 10383162802451 / variant 54128975839507
+2026-07-12 16:33:02,108 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149220991251
+2026-07-12 16:33:02,111 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:33:02,758 - INFO - [IMG] P1 – Using variant image for product 10345230893331 / variant 54129074831635
+2026-07-12 16:33:03,372 - INFO - [IMG] P3 – Using featured product image for product 10423999627539
+2026-07-12 16:33:03,393 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54129085251859
+2026-07-12 16:33:03,409 - INFO - [IMG] P1 – Using variant image for product 10383162802451 / variant 54099200442643
+2026-07-12 16:33:03,884 - INFO - [IMG] P1 – Using variant image for product 10383162933523 / variant 54099206504723
+2026-07-12 16:33:03,898 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:03,909 - INFO - [IMG] P3 – Using featured product image for product 10345231122707
+2026-07-12 16:33:03,921 - INFO - [IMG] P1 – Using variant image for product 10345247277331 / variant 53952156107027
+2026-07-12 16:33:03,929 - INFO - [IMG] P3 – Using featured product image for product 10307520823571
+2026-07-12 16:33:03,958 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:03,976 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:03,994 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:03,995 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:04,018 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:04,050 - INFO - [IMG] P1 – Using variant image for product 10383171223827 / variant 54099255820563
+2026-07-12 16:33:04,060 - INFO - [IMG] P1 – Using variant image for product 10383158575379 / variant 54099185402131
+2026-07-12 16:33:04,082 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:04,114 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:33:04,115 - INFO - [IMG] P3 – Using featured product image for product 10383171223827
+2026-07-12 16:33:04,604 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54083339649299
+2026-07-12 16:33:05,216 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54075826045203
+2026-07-12 16:33:05,654 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54081726710035
+2026-07-12 16:33:05,659 - INFO - [IMG] P1 – Using variant image for product 10286114275603 / variant 54129098064147
+2026-07-12 16:33:05,664 - INFO - [IMG] P3 – Using featured product image for product 10286114275603
+2026-07-12 16:33:05,678 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219352851
+2026-07-12 16:33:05,685 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:05,699 - INFO - [IMG] P3 – Using featured product image for product 10286070300947
+2026-07-12 16:33:05,715 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:05,735 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:05,761 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221024019
+2026-07-12 16:33:05,762 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219352851
+2026-07-12 16:33:05,777 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54129085186323
+2026-07-12 16:33:05,793 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:05,807 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:05,834 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217911059
+2026-07-12 16:33:05,843 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:05,884 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:05,919 - INFO - Processed 200/540 orders...
+2026-07-12 16:33:05,937 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:05,970 - INFO - [IMG] P3 – Using featured product image for product 10286102511891
+2026-07-12 16:33:05,998 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:06,010 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149220958483
+2026-07-12 16:33:06,025 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:06,038 - INFO - [IMG] P3 – Using featured product image for product 10383358001427
+2026-07-12 16:33:06,045 - INFO - [IMG] P3 – Using featured product image for product 10383372189971
+2026-07-12 16:33:06,653 - INFO - [IMG] P3 – Using featured product image for product 10383359410451
+2026-07-12 16:33:06,659 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:06,665 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:07,269 - INFO - [IMG] P3 – Using featured product image for product 10378647240979
+2026-07-12 16:33:07,275 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54129060938003
+2026-07-12 16:33:07,280 - INFO - [IMG] P3 – Using featured product image for product 10383156904211
+2026-07-12 16:33:07,286 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:07,286 - INFO - [IMG] P3 – Using featured product image for product 10378647830803
+2026-07-12 16:33:07,775 - INFO - [IMG] P3 – Using featured product image for product 10286070006035
+2026-07-12 16:33:07,793 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:07,794 - INFO - [IMG] P3 – Using featured product image for product 10307470065939
+2026-07-12 16:33:07,799 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:07,821 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:07,831 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946807059
+2026-07-12 16:33:07,832 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:07,834 - INFO - [IMG] P3 – Using featured product image for product 10383158575379
+2026-07-12 16:33:08,492 - INFO - [IMG] P3 – Using featured product image for product 10286094352659
+2026-07-12 16:33:08,499 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:08,509 - INFO - [IMG] P3 – Using featured product image for product 10383163621651
+2026-07-12 16:33:08,515 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946774291
+2026-07-12 16:33:08,538 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:08,558 - INFO - [IMG] P3 – Using featured product image for product 10307470065939
+2026-07-12 16:33:08,586 - INFO - [IMG] P3 – Using featured product image for product 10307637477651
+2026-07-12 16:33:08,596 - INFO - [IMG] P1 – Using variant image for product 10383354233107 / variant 54128933994771
+2026-07-12 16:33:09,108 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067163923
+2026-07-12 16:33:09,117 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:09,131 - INFO - [IMG] P3 – Using featured product image for product 10312827994387
+2026-07-12 16:33:09,135 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:09,145 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:09,157 - INFO - [IMG] P1 – Using variant image for product 10312791949587 / variant 54129077387539
+2026-07-12 16:33:09,181 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993829139
+2026-07-12 16:33:09,197 - INFO - [IMG] P3 – Using featured product image for product 10376661762323
+2026-07-12 16:33:09,216 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993829139
+2026-07-12 16:33:09,230 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993829139
+2026-07-12 16:33:09,244 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828535571
+2026-07-12 16:33:09,250 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54129067491603
+2026-07-12 16:33:09,258 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217747219
+2026-07-12 16:33:09,259 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:09,925 - INFO - [IMG] P1 – Using variant image for product 10376662810899 / variant 54129061986579
+2026-07-12 16:33:09,945 - INFO - [IMG] P1 – Using variant image for product 10286070202643 / variant 54120115568915
+2026-07-12 16:33:09,953 - INFO - [IMG] P1 – Using variant image for product 10286070202643 / variant 54120115601683
+2026-07-12 16:33:09,961 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:10,009 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:10,036 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54129085186323
+2026-07-12 16:33:10,038 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54129084170515
+2026-07-12 16:33:10,050 - INFO - [IMG] P3 – Using featured product image for product 10312793522451
+2026-07-12 16:33:10,097 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:10,121 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828568339
+2026-07-12 16:33:10,132 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828535571
+2026-07-12 16:33:10,135 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218348307
+2026-07-12 16:33:10,161 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:10,173 - INFO - [IMG] P1 – Using variant image for product 10286102511891 / variant 54119204880659
+2026-07-12 16:33:10,180 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54083367305491
+2026-07-12 16:33:10,203 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128935141651
+2026-07-12 16:33:10,238 - INFO - [IMG] P3 – Using featured product image for product 10383158575379
+2026-07-12 16:33:10,745 - INFO - [IMG] P3 – Using featured product image for product 10307487858963
+2026-07-12 16:33:10,752 - INFO - [IMG] P1 – Using variant image for product 10383355773203 / variant 54099702972691
+2026-07-12 16:33:10,783 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:10,801 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:11,256 - INFO - [IMG] P3 – Using featured product image for product 10038887121171
+2026-07-12 16:33:11,262 - INFO - [IMG] P3 – Using featured product image for product 10307520823571
+2026-07-12 16:33:11,275 - INFO - [IMG] P3 – Using featured product image for product 10376564670739
+2026-07-12 16:33:11,973 - INFO - [IMG] P1 – Using variant image for product 10378646782227 / variant 54083292365075
+2026-07-12 16:33:11,979 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54129084137747
+2026-07-12 16:33:12,591 - INFO - [IMG] P3 – Using featured product image for product 10378286924051
+2026-07-12 16:33:12,600 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54129069523219
+2026-07-12 16:33:12,613 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993829139
+2026-07-12 16:33:12,700 - INFO - Processed 250/540 orders...
+2026-07-12 16:33:13,409 - INFO - [IMG] P3 – Using featured product image for product 10378650681619
+2026-07-12 16:33:13,416 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54129067491603
+2026-07-12 16:33:13,418 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:13,447 - INFO - [IMG] P3 – Using featured product image for product 10307335160083
+2026-07-12 16:33:13,455 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934813971
+2026-07-12 16:33:13,464 - INFO - [IMG] P3 – Using featured product image for product 10383284011283
+2026-07-12 16:33:13,473 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217878291
+2026-07-12 16:33:13,485 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934945043
+2026-07-12 16:33:13,495 - INFO - [IMG] P3 – Using featured product image for product 10307530391827
+2026-07-12 16:33:13,523 - INFO - [IMG] P3 – Using featured product image for product 10376660910355
+2026-07-12 16:33:13,534 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:33:14,024 - INFO - [IMG] P3 – Using featured product image for product 10286102774035
+2026-07-12 16:33:14,058 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54083367239955
+2026-07-12 16:33:14,065 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:14,094 - INFO - [IMG] P3 – Using featured product image for product 10378646782227
+2026-07-12 16:33:14,119 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54129084137747
+2026-07-12 16:33:14,639 - INFO - [IMG] P1 – Using variant image for product 10383276114195 / variant 54099447152915
+2026-07-12 16:33:14,678 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:14,708 - INFO - [IMG] P3 – Using featured product image for product 10307487858963
+2026-07-12 16:33:14,722 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219451155
+2026-07-12 16:33:14,735 - INFO - [IMG] P3 – Using featured product image for product 10378648158483
+2026-07-12 16:33:14,753 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:14,780 - INFO - [IMG] P3 – Using featured product image for product 10345247310099
+2026-07-12 16:33:14,792 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:14,811 - INFO - [IMG] P3 – Using featured product image for product 10383271952659
+2026-07-12 16:33:14,861 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:14,875 - INFO - [IMG] P3 – Using featured product image for product 10286102511891
+2026-07-12 16:33:14,883 - INFO - [IMG] P3 – Using featured product image for product 10312793522451
+2026-07-12 16:33:14,921 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:33:14,922 - INFO - [IMG] P3 – Using featured product image for product 10383156904211
+2026-07-12 16:33:14,941 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:14,960 - INFO - [IMG] P3 – Using featured product image for product 10383271952659
+2026-07-12 16:33:14,975 - INFO - [IMG] P3 – Using featured product image for product 10345247277331
+2026-07-12 16:33:15,005 - INFO - [IMG] P3 – Using featured product image for product 10345273557267
+2026-07-12 16:33:15,029 - INFO - [IMG] P1 – Using variant image for product 10383354233107 / variant 54128933962003
+2026-07-12 16:33:15,037 - INFO - [IMG] P3 – Using featured product image for product 10345247179027
+2026-07-12 16:33:15,045 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219352851
+2026-07-12 16:33:15,058 - INFO - [IMG] P3 – Using featured product image for product 10296169333011
+2026-07-12 16:33:15,075 - INFO - [IMG] P1 – Using variant image for product 10378647830803 / variant 54083295248659
+2026-07-12 16:33:15,082 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54083367239955
+2026-07-12 16:33:15,107 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54129060970771
+2026-07-12 16:33:15,116 - INFO - [IMG] P3 – Using featured product image for product 10383355773203
+2026-07-12 16:33:15,127 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221122323
+2026-07-12 16:33:15,128 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:33:15,172 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067000083
+2026-07-12 16:33:15,184 - INFO - [IMG] P3 – Using featured product image for product 10286114930963
+2026-07-12 16:33:15,211 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934813971
+2026-07-12 16:33:15,212 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934682899
+2026-07-12 16:33:15,228 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:33:15,246 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54128999792915
+2026-07-12 16:33:15,254 - INFO - [IMG] P3 – Using featured product image for product 10286114275603
+2026-07-12 16:33:15,279 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54128999792915
+2026-07-12 16:33:15,299 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217812755
+2026-07-12 16:33:16,283 - INFO - [IMG] P3 – Using featured product image for product 10127573352723
+2026-07-12 16:33:16,888 - INFO - [IMG] P3 – Using featured product image for product 10334274257171
+2026-07-12 16:33:16,915 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993861907
+2026-07-12 16:33:16,948 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:33:16,986 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828568339
+2026-07-12 16:33:17,038 - INFO - [IMG] P3 – Using featured product image for product 10307487858963
+2026-07-12 16:33:17,039 - INFO - [IMG] P3 – Using featured product image for product 10307530391827
+2026-07-12 16:33:17,054 - INFO - [IMG] P3 – Using featured product image for product 10312791949587
+2026-07-12 16:33:17,707 - INFO - [IMG] P3 – Using featured product image for product 10378299670803
+2026-07-12 16:33:18,330 - INFO - [IMG] P3 – Using featured product image for product 10383360786707
+2026-07-12 16:33:18,339 - INFO - [IMG] P3 – Using featured product image for product 10383156904211
+2026-07-12 16:33:18,362 - INFO - [IMG] P3 – Using featured product image for product 10286070202643
+2026-07-12 16:33:18,399 - INFO - [IMG] P1 – Using variant image for product 10345230893331 / variant 54129074798867
+2026-07-12 16:33:18,408 - INFO - [IMG] P3 – Using featured product image for product 10307530391827
+2026-07-12 16:33:18,453 - INFO - [IMG] P3 – Using featured product image for product 10286070006035
+2026-07-12 16:33:18,487 - INFO - [IMG] P3 – Using featured product image for product 10378647830803
+2026-07-12 16:33:18,514 - INFO - [IMG] P3 – Using featured product image for product 10286102774035
+2026-07-12 16:33:18,534 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:18,558 - INFO - Processed 300/540 orders...
+2026-07-12 16:33:18,564 - INFO - [IMG] P3 – Using featured product image for product 10383271952659
+2026-07-12 16:33:18,572 - INFO - [IMG] P3 – Using featured product image for product 10307530391827
+2026-07-12 16:33:18,596 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54129069523219
+2026-07-12 16:33:18,609 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:18,630 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:19,142 - INFO - [IMG] P1 – Using variant image for product 10378649338131 / variant 54083366945043
+2026-07-12 16:33:19,242 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219451155
+2026-07-12 16:33:19,278 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:19,297 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:19,962 - INFO - [IMG] P3 – Using featured product image for product 10286084161811
+2026-07-12 16:33:19,974 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993829139
+2026-07-12 16:33:19,977 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:20,022 - INFO - [IMG] P3 – Using featured product image for product 10296169333011
+2026-07-12 16:33:20,052 - INFO - [IMG] P3 – Using featured product image for product 10383298035987
+2026-07-12 16:33:20,066 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54128999825683
+2026-07-12 16:33:20,110 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:33:20,111 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077092627
+2026-07-12 16:33:20,129 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217911059
+2026-07-12 16:33:20,141 - INFO - [IMG] P1 – Using variant image for product 10378646782227 / variant 54083292365075
+2026-07-12 16:33:20,173 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:20,176 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217911059
+2026-07-12 16:33:20,782 - INFO - [IMG] P1 – Using variant image for product 10376660484371 / variant 54076207268115
+2026-07-12 16:33:20,790 - INFO - [IMG] P1 – Using variant image for product 10312793522451 / variant 54129077223699
+2026-07-12 16:33:20,829 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:20,858 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:20,881 - INFO - [IMG] P3 – Using featured product image for product 10383672541459
+2026-07-12 16:33:21,396 - INFO - [IMG] P3 – Using featured product image for product 10383180497171
+2026-07-12 16:33:21,404 - INFO - [IMG] P3 – Using featured product image for product 10383175614739
+2026-07-12 16:33:21,413 - INFO - [IMG] P3 – Using featured product image for product 10345230860563
+2026-07-12 16:33:21,425 - INFO - [IMG] P3 – Using featured product image for product 10312791949587
+2026-07-12 16:33:21,426 - INFO - [IMG] P3 – Using featured product image for product 10286070202643
+2026-07-12 16:33:22,009 - INFO - [IMG] P3 – Using featured product image for product 10286103036179
+2026-07-12 16:33:22,018 - INFO - [IMG] P3 – Using featured product image for product 10376564670739
+2026-07-12 16:33:22,020 - INFO - [IMG] P3 – Using featured product image for product 10312827994387
+2026-07-12 16:33:22,027 - INFO - [IMG] P3 – Using featured product image for product 10296169333011
+2026-07-12 16:33:22,064 - INFO - [IMG] P3 – Using featured product image for product 10286070300947
+2026-07-12 16:33:22,073 - INFO - [IMG] P3 – Using featured product image for product 10286070300947
+2026-07-12 16:33:22,082 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218315539
+2026-07-12 16:33:22,113 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54129077092627
+2026-07-12 16:33:22,144 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:22,145 - INFO - [IMG] P1 – Using variant image for product 10376662810899 / variant 54129061986579
+2026-07-12 16:33:22,196 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067196691
+2026-07-12 16:33:22,301 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54129084137747
+2026-07-12 16:33:22,332 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946774291
+2026-07-12 16:33:22,363 - INFO - [IMG] P1 – Using variant image for product 10376662810899 / variant 54076222505235
+2026-07-12 16:33:22,414 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828535571
+2026-07-12 16:33:22,445 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:23,039 - INFO - [IMG] P1 – Using variant image for product 10286116962579 / variant 54129095213331
+2026-07-12 16:33:23,185 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54128999923987
+2026-07-12 16:33:23,254 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219451155
+2026-07-12 16:33:23,256 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067032851
+2026-07-12 16:33:23,332 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946741523
+2026-07-12 16:33:23,333 - INFO - [IMG] P3 – Using featured product image for product 10307641377043
+2026-07-12 16:33:23,366 - INFO - [IMG] P3 – Using featured product image for product 10345273557267
+2026-07-12 16:33:23,375 - INFO - [IMG] P3 – Using featured product image for product 10345273557267
+2026-07-12 16:33:23,413 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54083339616531
+2026-07-12 16:33:23,453 - INFO - [IMG] P3 – Using featured product image for product 10376661270803
+2026-07-12 16:33:23,924 - INFO - [IMG] P1 – Using variant image for product 10383157428499 / variant 54099179766035
+2026-07-12 16:33:23,935 - INFO - [IMG] P3 – Using featured product image for product 10255248654611
+2026-07-12 16:33:23,938 - INFO - [IMG] P1 – Using variant image for product 10383271952659 / variant 54099444695315
+2026-07-12 16:33:23,948 - INFO - [IMG] P1 – Using variant image for product 10307637477651 / variant 54129084268819
+2026-07-12 16:33:24,054 - INFO - [IMG] P1 – Using variant image for product 10307506340115 / variant 54129085251859
+2026-07-12 16:33:24,086 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218315539
+2026-07-12 16:33:24,115 - INFO - [IMG] P3 – Using featured product image for product 10286094352659
+2026-07-12 16:33:24,129 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217911059
+2026-07-12 16:33:24,166 - INFO - [IMG] P3 – Using featured product image for product 10378299670803
+2026-07-12 16:33:24,197 - INFO - [IMG] P3 – Using featured product image for product 10383359410451
+2026-07-12 16:33:24,207 - INFO - [IMG] P3 – Using featured product image for product 10383156904211
+2026-07-12 16:33:24,245 - INFO - [IMG] P1 – Using variant image for product 10307520823571 / variant 54119977877779
+2026-07-12 16:33:24,878 - INFO - [IMG] P3 – Using featured product image for product 10378654875923
+2026-07-12 16:33:24,889 - INFO - [IMG] P3 – Using featured product image for product 10286070202643
+2026-07-12 16:33:24,897 - INFO - [IMG] P3 – Using featured product image for product 10286103036179
+2026-07-12 16:33:24,931 - INFO - Processed 350/540 orders...
+2026-07-12 16:33:24,946 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:25,493 - INFO - [IMG] P3 – Using featured product image for product 10312389067027
+2026-07-12 16:33:25,520 - INFO - [IMG] P3 – Using featured product image for product 10383175614739
+2026-07-12 16:33:25,527 - INFO - [IMG] P1 – Using variant image for product 10376662810899 / variant 54129061986579
+2026-07-12 16:33:25,528 - INFO - [IMG] P3 – Using featured product image for product 10307335160083
+2026-07-12 16:33:25,537 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:25,557 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54129069523219
+2026-07-12 16:33:25,558 - INFO - [IMG] P3 – Using featured product image for product 10286114930963
+2026-07-12 16:33:25,568 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54129060938003
+2026-07-12 16:33:25,609 - INFO - [IMG] P3 – Using featured product image for product 10286070202643
+2026-07-12 16:33:25,641 - INFO - [IMG] P1 – Using variant image for product 10376662810899 / variant 54129062183187
+2026-07-12 16:33:25,653 - INFO - [IMG] P3 – Using featured product image for product 10286070300947
+2026-07-12 16:33:25,665 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217911059
+2026-07-12 16:33:25,695 - INFO - [IMG] P1 – Using variant image for product 10383158575379 / variant 54099185369363
+2026-07-12 16:33:25,697 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828535571
+2026-07-12 16:33:25,743 - INFO - [IMG] P3 – Using featured product image for product 10286102774035
+2026-07-12 16:33:25,784 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993927443
+2026-07-12 16:33:25,796 - INFO - [IMG] P3 – Using featured product image for product 10312389067027
+2026-07-12 16:33:25,810 - INFO - [IMG] P3 – Using featured product image for product 10383158575379
+2026-07-12 16:33:25,847 - INFO - [IMG] P3 – Using featured product image for product 10378648158483
+2026-07-12 16:33:25,850 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54129060938003
+2026-07-12 16:33:25,851 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54129061069075
+2026-07-12 16:33:25,871 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:25,939 - INFO - [IMG] P1 – Using variant image for product 10383156904211 / variant 54099179372819
+2026-07-12 16:33:25,950 - INFO - [IMG] P1 – Using variant image for product 10383162802451 / variant 54099200442643
+2026-07-12 16:33:25,951 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54099638092051
+2026-07-12 16:33:25,959 - INFO - [IMG] P3 – Using featured product image for product 10286070202643
+2026-07-12 16:33:25,969 - INFO - [IMG] P1 – Using variant image for product 10378649534739 / variant 54128993829139
+2026-07-12 16:33:25,970 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54129060938003
+2026-07-12 16:33:25,982 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:26,012 - INFO - [IMG] P3 – Using featured product image for product 10307637477651
+2026-07-12 16:33:26,016 - INFO - [IMG] P3 – Using featured product image for product 10307530391827
+2026-07-12 16:33:26,058 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:26,058 - INFO - [IMG] P3 – Using featured product image for product 10286102118675
+2026-07-12 16:33:26,068 - INFO - [IMG] P3 – Using featured product image for product 10038879191315
+2026-07-12 16:33:26,108 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:26,109 - INFO - [IMG] P3 – Using featured product image for product 10312827994387
+2026-07-12 16:33:26,109 - INFO - [IMG] P3 – Using featured product image for product 10286114636051
+2026-07-12 16:33:26,619 - INFO - [IMG] P3 – Using featured product image for product 10333583376659
+2026-07-12 16:33:26,625 - INFO - [IMG] P1 – Using variant image for product 10383355019539 / variant 54099698581779
+2026-07-12 16:33:27,335 - INFO - [IMG] P1 – Using variant image for product 10345231253779 / variant 53952150372627
+2026-07-12 16:33:27,343 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149220991251
+2026-07-12 16:33:27,343 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54128999792915
+2026-07-12 16:33:27,362 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:27,380 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067163923
+2026-07-12 16:33:27,395 - INFO - [IMG] P3 – Using featured product image for product 10312791949587
+2026-07-12 16:33:27,423 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54129069555987
+2026-07-12 16:33:27,846 - INFO - [IMG] P3 – Using featured product image for product 10376661139731
+2026-07-12 16:33:27,875 - INFO - [IMG] P3 – Using featured product image for product 10378286924051
+2026-07-12 16:33:28,358 - INFO - [IMG] P3 – Using featured product image for product 10383168831763
+2026-07-12 16:33:28,812 - INFO - [IMG] P3 – Using featured product image for product 10383165128979
+2026-07-12 16:33:28,820 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067065619
+2026-07-12 16:33:28,858 - INFO - [IMG] P3 – Using featured product image for product 10255248654611
+2026-07-12 16:33:28,893 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:28,926 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217747219
+2026-07-12 16:33:28,936 - INFO - [IMG] P1 – Using variant image for product 10378646782227 / variant 54083292365075
+2026-07-12 16:33:28,961 - INFO - [IMG] P3 – Using featured product image for product 10378682827027
+2026-07-12 16:33:28,975 - INFO - [IMG] P3 – Using featured product image for product 10286102774035
+2026-07-12 16:33:28,992 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067032851
+2026-07-12 16:33:28,993 - INFO - [IMG] P3 – Using featured product image for product 10376660484371
+2026-07-12 16:33:29,042 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:29,066 - INFO - [IMG] P3 – Using featured product image for product 10383158575379
+2026-07-12 16:33:29,074 - INFO - [IMG] P3 – Using featured product image for product 10378654875923
+2026-07-12 16:33:29,085 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:33:29,180 - INFO - [IMG] P3 – Using featured product image for product 10307641377043
+2026-07-12 16:33:29,243 - INFO - [IMG] P3 – Using featured product image for product 10345230860563
+2026-07-12 16:33:29,253 - INFO - [IMG] P1 – Using variant image for product 10312791949587 / variant 54129077387539
+2026-07-12 16:33:29,292 - INFO - [IMG] P3 – Using featured product image for product 10376660484371
+2026-07-12 16:33:29,294 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:29,299 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:29,349 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:29,406 - INFO - [IMG] P3 – Using featured product image for product 10345273557267
+2026-07-12 16:33:29,416 - INFO - [IMG] P3 – Using featured product image for product 10345247310099
+2026-07-12 16:33:29,427 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:29,430 - INFO - [IMG] P1 – Using variant image for product 10286103036179 / variant 54129098162451
+2026-07-12 16:33:29,443 - INFO - [IMG] P1 – Using variant image for product 10383165128979 / variant 54099251953939
+2026-07-12 16:33:29,469 - INFO - [IMG] P1 – Using variant image for product 10383156904211 / variant 54099179372819
+2026-07-12 16:33:29,472 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219483923
+2026-07-12 16:33:29,542 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217747219
+2026-07-12 16:33:29,546 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:29,551 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:29,554 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:29,556 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:30,201 - INFO - [IMG] P3 – Using featured product image for product 10127573090579
+2026-07-12 16:33:30,210 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067065619
+2026-07-12 16:33:30,212 - INFO - Processed 400/540 orders...
+2026-07-12 16:33:30,253 - INFO - [IMG] P3 – Using featured product image for product 10378299670803
+2026-07-12 16:33:30,254 - INFO - [IMG] P3 – Using featured product image for product 10383157428499
+2026-07-12 16:33:30,264 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:30,265 - INFO - [IMG] P3 – Using featured product image for product 10383355019539
+2026-07-12 16:33:30,278 - INFO - [IMG] P3 – Using featured product image for product 10376661139731
+2026-07-12 16:33:30,291 - INFO - [IMG] P3 – Using featured product image for product 10286084161811
+2026-07-12 16:33:30,303 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067163923
+2026-07-12 16:33:30,325 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:30,326 - INFO - [IMG] P3 – Using featured product image for product 10312456536339
+2026-07-12 16:33:30,351 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:31,020 - INFO - [IMG] P3 – Using featured product image for product 10333585867027
+2026-07-12 16:33:31,070 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067032851
+2026-07-12 16:33:31,113 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:31,148 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934748435
+2026-07-12 16:33:31,635 - INFO - [IMG] P3 – Using featured product image for product 10255249539347
+2026-07-12 16:33:31,647 - INFO - [IMG] P3 – Using featured product image for product 10378299670803
+2026-07-12 16:33:31,659 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934781203
+2026-07-12 16:33:31,686 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218348307
+2026-07-12 16:33:31,687 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:31,759 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:31,786 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54129067491603
+2026-07-12 16:33:31,809 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54129061069075
+2026-07-12 16:33:31,810 - INFO - [IMG] P1 – Using variant image for product 10383156904211 / variant 54099179372819
+2026-07-12 16:33:31,838 - INFO - [IMG] P3 – Using featured product image for product 10383163621651
+2026-07-12 16:33:31,839 - INFO - [IMG] P3 – Using featured product image for product 10312791949587
+2026-07-12 16:33:31,840 - INFO - [IMG] P3 – Using featured product image for product 10307641377043
+2026-07-12 16:33:31,866 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946872595
+2026-07-12 16:33:31,873 - INFO - [IMG] P3 – Using featured product image for product 10383355773203
+2026-07-12 16:33:31,897 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:31,921 - INFO - [IMG] P1 – Using variant image for product 10376662810899 / variant 54129062052115
+2026-07-12 16:33:31,935 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067000083
+2026-07-12 16:33:31,980 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067065619
+2026-07-12 16:33:32,006 - INFO - [IMG] P3 – Using featured product image for product 10383359410451
+2026-07-12 16:33:32,017 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,063 - INFO - [IMG] P1 – Using variant image for product 10378654875923 / variant 54083440443667
+2026-07-12 16:33:32,078 - INFO - [IMG] P1 – Using variant image for product 10286070202643 / variant 54120115601683
+2026-07-12 16:33:32,081 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 53952130351379
+2026-07-12 16:33:32,083 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,084 - INFO - [IMG] P1 – Using variant image for product 10383360786707 / variant 54099751174419
+2026-07-12 16:33:32,101 - INFO - [IMG] P3 – Using featured product image for product 10383284011283
+2026-07-12 16:33:32,116 - INFO - [IMG] P1 – Using variant image for product 10383156904211 / variant 54099179372819
+2026-07-12 16:33:32,150 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828535571
+2026-07-12 16:33:32,151 - INFO - [IMG] P1 – Using variant image for product 10312791949587 / variant 54129077322003
+2026-07-12 16:33:32,177 - INFO - [IMG] P1 – Using variant image for product 10383307735315 / variant 54128946741523
+2026-07-12 16:33:32,203 - INFO - [IMG] P3 – Using featured product image for product 10383163621651
+2026-07-12 16:33:32,212 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934748435
+2026-07-12 16:33:32,214 - INFO - [IMG] P3 – Using featured product image for product 10307470065939
+2026-07-12 16:33:32,265 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,313 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,315 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,316 - INFO - [IMG] P3 – Using featured product image for product 10317072793875
+2026-07-12 16:33:32,362 - INFO - [IMG] P3 – Using featured product image for product 10383271952659
+2026-07-12 16:33:32,378 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,379 - INFO - [IMG] P3 – Using featured product image for product 10286070300947
+2026-07-12 16:33:32,384 - INFO - [IMG] P3 – Using featured product image for product 10312791949587
+2026-07-12 16:33:32,451 - INFO - [IMG] P1 – Using variant image for product 10286103036179 / variant 54129098162451
+2026-07-12 16:33:32,494 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,496 - INFO - [IMG] P1 – Using variant image for product 10378287153427 / variant 54081726710035
+2026-07-12 16:33:32,538 - INFO - [IMG] P3 – Using featured product image for product 10345231122707
+2026-07-12 16:33:32,549 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:33:32,550 - INFO - [IMG] P3 – Using featured product image for product 10383355773203
+2026-07-12 16:33:32,551 - INFO - [IMG] P3 – Using featured product image for product 10383158575379
+2026-07-12 16:33:32,602 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,639 - INFO - [IMG] P3 – Using featured product image for product 10296169333011
+2026-07-12 16:33:32,686 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218348307
+2026-07-12 16:33:32,687 - INFO - [IMG] P1 – Using variant image for product 10296169333011 / variant 54119412793619
+2026-07-12 16:33:32,703 - INFO - [IMG] P1 – Using variant image for product 10286070202643 / variant 54120115536147
+2026-07-12 16:33:32,736 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,762 - INFO - [IMG] P3 – Using featured product image for product 10376660910355
+2026-07-12 16:33:32,789 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:32,790 - INFO - [IMG] P1 – Using variant image for product 10345230893331 / variant 54129074569491
+2026-07-12 16:33:32,802 - INFO - [IMG] P3 – Using featured product image for product 10383298035987
+2026-07-12 16:33:32,818 - INFO - [IMG] P3 – Using featured product image for product 10383355019539
+2026-07-12 16:33:32,832 - INFO - [IMG] P3 – Using featured product image for product 10383156904211
+2026-07-12 16:33:32,840 - INFO - [IMG] P3 – Using featured product image for product 10307637477651
+2026-07-12 16:33:32,847 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,848 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:32,897 - INFO - [IMG] P1 – Using variant image for product 10286102774035 / variant 54129098850579
+2026-07-12 16:33:32,908 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217812755
+2026-07-12 16:33:32,981 - INFO - [IMG] P3 – Using featured product image for product 10378648158483
+2026-07-12 16:33:32,982 - INFO - [IMG] P1 – Using variant image for product 10383354233107 / variant 54128934191379
+2026-07-12 16:33:33,043 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:33:33,073 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:33,100 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219451155
+2026-07-12 16:33:33,683 - INFO - [IMG] P3 – Using featured product image for product 10376572371219
+2026-07-12 16:33:33,717 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:33,717 - INFO - [IMG] P3 – Using featured product image for product 10286094352659
+2026-07-12 16:33:33,739 - INFO - [IMG] P3 – Using featured product image for product 10286070006035
+2026-07-12 16:33:33,748 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54129067524371
+2026-07-12 16:33:33,779 - INFO - Processed 450/540 orders...
+2026-07-12 16:33:33,789 - INFO - [IMG] P3 – Using featured product image for product 10376661762323
+2026-07-12 16:33:33,828 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:33,864 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934846739
+2026-07-12 16:33:33,911 - INFO - [IMG] P3 – Using featured product image for product 10286070202643
+2026-07-12 16:33:33,925 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067032851
+2026-07-12 16:33:34,018 - INFO - [IMG] P3 – Using featured product image for product 10383276114195
+2026-07-12 16:33:34,034 - INFO - [IMG] P3 – Using featured product image for product 10378649338131
+2026-07-12 16:33:34,052 - INFO - [IMG] P3 – Using featured product image for product 10307530391827
+2026-07-12 16:33:34,057 - INFO - [IMG] P1 – Using variant image for product 10378650681619 / variant 54083405381907
+2026-07-12 16:33:34,130 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:34,158 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828535571
+2026-07-12 16:33:34,185 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:34,211 - INFO - [IMG] P3 – Using featured product image for product 10312791949587
+2026-07-12 16:33:34,212 - INFO - [IMG] P3 – Using featured product image for product 10286114275603
+2026-07-12 16:33:34,224 - INFO - [IMG] P3 – Using featured product image for product 10286084161811
+2026-07-12 16:33:34,234 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:34,235 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067163923
+2026-07-12 16:33:34,236 - INFO - [IMG] P3 – Using featured product image for product 10286102774035
+2026-07-12 16:33:34,275 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217747219
+2026-07-12 16:33:34,275 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:34,304 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:34,332 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828568339
+2026-07-12 16:33:34,355 - INFO - [IMG] P3 – Using featured product image for product 10313046688019
+2026-07-12 16:33:34,365 - INFO - [IMG] P3 – Using featured product image for product 10383276114195
+2026-07-12 16:33:34,375 - INFO - [IMG] P3 – Using featured product image for product 10383355019539
+2026-07-12 16:33:34,385 - INFO - [IMG] P3 – Using featured product image for product 10345273557267
+2026-07-12 16:33:34,417 - INFO - [IMG] P3 – Using featured product image for product 10307637477651
+2026-07-12 16:33:34,446 - INFO - [IMG] P3 – Using featured product image for product 10313046688019
+2026-07-12 16:33:34,456 - INFO - [IMG] P3 – Using featured product image for product 10307335160083
+2026-07-12 16:33:34,468 - INFO - [IMG] P3 – Using featured product image for product 10307506340115
+2026-07-12 16:33:34,499 - INFO - [IMG] P3 – Using featured product image for product 10345230958867
+2026-07-12 16:33:34,511 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:34,543 - INFO - [IMG] P1 – Using variant image for product 10345273557267 / variant 53952314736915
+2026-07-12 16:33:34,603 - INFO - [IMG] P3 – Using featured product image for product 10345231122707
+2026-07-12 16:33:34,620 - INFO - [IMG] P3 – Using featured product image for product 10307470065939
+2026-07-12 16:33:34,669 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828568339
+2026-07-12 16:33:34,699 - INFO - [IMG] P3 – Using featured product image for product 10378648158483
+2026-07-12 16:33:34,712 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934879507
+2026-07-12 16:33:34,725 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:34,782 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54129085186323
+2026-07-12 16:33:34,819 - INFO - [IMG] P3 – Using featured product image for product 10286102774035
+2026-07-12 16:33:34,843 - INFO - [IMG] P3 – Using featured product image for product 10333585867027
+2026-07-12 16:33:34,873 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:34,903 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:34,946 - INFO - [IMG] P3 – Using featured product image for product 10383158575379
+2026-07-12 16:33:34,947 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219287315
+2026-07-12 16:33:34,992 - INFO - [IMG] P3 – Using featured product image for product 10378647830803
+2026-07-12 16:33:34,993 - INFO - [IMG] P1 – Using variant image for product 10383271952659 / variant 54099444662547
+2026-07-12 16:33:35,013 - INFO - [IMG] P3 – Using featured product image for product 10286114636051
+2026-07-12 16:33:35,032 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:35,117 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:35,157 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54129067524371
+2026-07-12 16:33:35,181 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219320083
+2026-07-12 16:33:35,182 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54149217779987
+2026-07-12 16:33:35,207 - INFO - [IMG] P1 – Using variant image for product 10378647830803 / variant 54083295248659
+2026-07-12 16:33:35,208 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54083339649299
+2026-07-12 16:33:35,209 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828568339
+2026-07-12 16:33:35,231 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:35,269 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:35,271 - INFO - [IMG] P3 – Using featured product image for product 10376661270803
+2026-07-12 16:33:35,288 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:35,317 - INFO - [IMG] P3 – Using featured product image for product 10378286924051
+2026-07-12 16:33:35,328 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54129067524371
+2026-07-12 16:33:35,329 - INFO - [IMG] P3 – Using featured product image for product 10383156904211
+2026-07-12 16:33:35,369 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:35,397 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:35,398 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:33:35,427 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:35,450 - INFO - [IMG] P1 – Using variant image for product 10378682827027 / variant 54083675521299
+2026-07-12 16:33:35,474 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:35,497 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:36,039 - INFO - [IMG] P3 – Using featured product image for product 10333571875091
+2026-07-12 16:33:36,049 - INFO - [IMG] P3 – Using featured product image for product 10333571875091
+2026-07-12 16:33:36,090 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:36,091 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934879507
+2026-07-12 16:33:36,117 - INFO - Processed 500/540 orders...
+2026-07-12 16:33:36,127 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:36,167 - INFO - [IMG] P1 – Using variant image for product 10383163621651 / variant 54099219972371
+2026-07-12 16:33:36,176 - INFO - [IMG] P1 – Using variant image for product 10383163621651 / variant 54099219939603
+2026-07-12 16:33:36,186 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54128999792915
+2026-07-12 16:33:36,187 - INFO - [IMG] P1 – Using variant image for product 10378654875923 / variant 54083440443667
+2026-07-12 16:33:36,188 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218348307
+2026-07-12 16:33:36,188 - INFO - [IMG] P1 – Using variant image for product 10312827994387 / variant 54119218315539
+2026-07-12 16:33:36,189 - INFO - [IMG] P1 – Using variant image for product 10286070202643 / variant 54120115536147
+2026-07-12 16:33:36,215 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:36,254 - INFO - [IMG] P3 – Using featured product image for product 10286102511891
+2026-07-12 16:33:36,288 - INFO - [IMG] P3 – Using featured product image for product 10296169333011
+2026-07-12 16:33:36,326 - INFO - [IMG] P3 – Using featured product image for product 10376661270803
+2026-07-12 16:33:36,327 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:36,366 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:36,418 - INFO - [IMG] P1 – Using variant image for product 10286114930963 / variant 54119973880083
+2026-07-12 16:33:36,475 - INFO - [IMG] P1 – Using variant image for product 10313046688019 / variant 54149219418387
+2026-07-12 16:33:36,479 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828568339
+2026-07-12 16:33:36,567 - INFO - [IMG] P3 – Using featured product image for product 10286094352659
+2026-07-12 16:33:36,996 - INFO - [IMG] P3 – Using featured product image for product 10333578854675
+2026-07-12 16:33:37,054 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54075828535571
+2026-07-12 16:33:37,055 - INFO - [IMG] P1 – Using variant image for product 10307641377043 / variant 54129084137747
+2026-07-12 16:33:37,097 - INFO - [IMG] P3 – Using featured product image for product 10333578854675
+2026-07-12 16:33:37,148 - INFO - [IMG] P3 – Using featured product image for product 10333578854675
+2026-07-12 16:33:37,779 - INFO - [IMG] P1 – Using variant image for product 10383310323987 / variant 54099556008211
+2026-07-12 16:33:37,817 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067131155
+2026-07-12 16:33:37,842 - INFO - [IMG] P3 – Using featured product image for product 10333578854675
+2026-07-12 16:33:37,877 - INFO - [IMG] P3 – Using featured product image for product 10383171223827
+2026-07-12 16:33:37,879 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067000083
+2026-07-12 16:33:37,961 - INFO - [IMG] P1 – Using variant image for product 10286102774035 / variant 54129098850579
+2026-07-12 16:33:37,962 - INFO - [IMG] P1 – Using variant image for product 10376568537363 / variant 54075826045203
+2026-07-12 16:33:37,962 - INFO - [IMG] P1 – Using variant image for product 10376564670739 / variant 54075824668947
+2026-07-12 16:33:38,001 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128935076115
+2026-07-12 16:33:38,496 - INFO - [IMG] P1 – Using variant image for product 10378681155859 / variant 54083667788051
+2026-07-12 16:33:38,506 - INFO - [IMG] P1 – Using variant image for product 10307530391827 / variant 54129085186323
+2026-07-12 16:33:38,508 - INFO - [IMG] P1 – Using variant image for product 10378648682771 / variant 54128999792915
+2026-07-12 16:33:38,559 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:38,587 - INFO - [IMG] P3 – Using featured product image for product 10307520823571
+2026-07-12 16:33:38,626 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:39,110 - INFO - [IMG] P3 – Using featured product image for product 10383670182163
+2026-07-12 16:33:39,120 - INFO - [IMG] P3 – Using featured product image for product 10383276114195
+2026-07-12 16:33:39,143 - INFO - [IMG] P1 – Using variant image for product 10376662810899 / variant 54129062052115
+2026-07-12 16:33:39,177 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:39,199 - INFO - [IMG] P3 – Using featured product image for product 10383164571923
+2026-07-12 16:33:39,231 - INFO - [IMG] P1 – Using variant image for product 10345230827795 / variant 54149221122323
+2026-07-12 16:33:39,255 - INFO - [IMG] P1 – Using variant image for product 10307487858963 / variant 54129085382931
+2026-07-12 16:33:39,271 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067032851
+2026-07-12 16:33:39,357 - INFO - [IMG] P1 – Using variant image for product 10376570372371 / variant 54129067000083
+2026-07-12 16:33:39,402 - INFO - [IMG] P1 – Using variant image for product 10383348957459 / variant 54128934682899
+2026-07-12 16:33:39,444 - INFO - [IMG] P3 – Using featured product image for product 10333578854675
+2026-07-12 16:33:39,446 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:39,467 - INFO - [IMG] P1 – Using variant image for product 10286070300947 / variant 54119389036819
+2026-07-12 16:33:39,549 - INFO - [IMG] P3 – Using featured product image for product 10378681155859
+2026-07-12 16:33:39,568 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:39,646 - INFO - [IMG] P3 – Using featured product image for product 10316141756691
+2026-07-12 16:33:39,676 - INFO - Saving 540 orders to database...
+2026-07-12 16:33:40,213 - INFO - Database sync complete: 540 orders saved.
+2026-07-12 16:33:40,214 - INFO - Sync complete: 540 orders saved to database.
+2026-07-12 16:34:07,632 - INFO - Searching for order #2050
+2026-07-12 16:34:07,645 - INFO - Found 1 items for order #2050 in database.
+2026-07-12 16:39:15,789 - INFO - Database initialized: orders.db
+2026-07-12 16:40:17,197 - INFO - Database initialized: orders.db

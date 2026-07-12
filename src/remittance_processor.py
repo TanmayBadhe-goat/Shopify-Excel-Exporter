@@ -1,7 +1,7 @@
 import csv
 import re
 from pathlib import Path
-from utils import logger
+from .utils import logger
 
 # Robust aliases for column detection
 # These will be matched against NORMALIZED headers

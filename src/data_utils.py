@@ -1,5 +1,5 @@
-from color_utils import resolve_color
-from size_utils import get_next_size
+from .color_utils import resolve_color
+from .size_utils import get_next_size
 
 def extract_color_robust(line_item, product=None):
     """

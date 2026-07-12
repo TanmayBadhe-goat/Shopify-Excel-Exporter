@@ -1,9 +1,9 @@
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-import auth
-from config import Config
-from utils import logger
+from . import auth
+from .config import Config
+from .utils import logger
 
 
 class ShopifyAPI:

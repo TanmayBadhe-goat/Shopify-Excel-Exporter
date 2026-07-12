@@ -5,12 +5,12 @@ Paginates through order history, matches line items by multiple product
 names (comma-separated, case-insensitive), and filters by order number range.
 """
 
-from shopify_api import ShopifyAPI
-from image_downloader import ImageDownloader
-from image_resolver import ProductImageResolver
-from color_utils import resolve_color
-from size_utils import get_next_size
-from utils import logger
+from .shopify_api import ShopifyAPI
+from .image_downloader import ImageDownloader
+from .image_resolver import ProductImageResolver
+from .color_utils import resolve_color
+from .size_utils import get_next_size
+from .utils import logger
 
 
 def search_product_orders(

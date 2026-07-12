@@ -1,4 +1,46 @@
-.env
-.env.example
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Runtime database ──────────────────────────────────────────────────────
+orders.db
+orders.db-journal
+orders.db-wal
+orders.db-shm
+
+# ── Application data (generated at runtime) ────────────────────────────────
+images/
+exports/
+data/
+app.log
+image_cache.json
 shopify_token.json
+user_settings.json
+size_mapping.json
+nul
+
+# ── Test artifacts ─────────────────────────────────────────────────────────
+tests/__pycache__/
+.pytest_cache/
+
+# ── Environment ────────────────────────────────────────────────────────────
+.env
+
+# ── OS ────────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
 node_modules/

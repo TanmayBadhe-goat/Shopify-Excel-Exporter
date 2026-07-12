@@ -2,6 +2,8 @@ import re
 
 def hex_to_rgb(hex_str):
     """Convert hex to RGB tuple."""
+    if not hex_str:
+        return None
     hex_str = hex_str.lstrip('#')
     if len(hex_str) == 3:
         hex_str = ''.join([c*2 for c in hex_str])
@@ -87,8 +89,12 @@ def resolve_color(color_input):
         name = re.sub(rf'\b{mod}\b', '', name, flags=re.IGNORECASE).strip()
     
     # 3. Final mapping: if the simplified name contains a base color, just use that
-    # e.g., "Navy Blue" -> "Navy" or "Blue" (priority to the base color match)
-    for base in BASE_COLORS.keys():
+    # e.g., "Navy Blue" -> "Navy" (longer names matched first; ties broken by reverse alpha
+    # so "Navy" is checked before "Blue", "Sky Blue" before "Blue", etc.)
+    base_keys = list(BASE_COLORS.keys())
+    base_keys.sort(reverse=True)  # reverse alpha for name tiebreaker
+    base_keys.sort(key=len, reverse=True)  # stable sort by length descending
+    for base in base_keys:
         if base.lower() in name.lower():
             return base
             

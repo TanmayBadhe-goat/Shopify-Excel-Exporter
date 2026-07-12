@@ -10,11 +10,11 @@ from openpyxl.drawing.image import Image as ExcelImage
 from openpyxl.utils import get_column_letter
 from pathlib import Path
 
-from shopify_api import ShopifyAPI
-from image_downloader import ImageDownloader
-from image_resolver import ProductImageResolver
-from data_utils import extract_color_robust, extract_size_robust
-from utils import logger
+from .shopify_api import ShopifyAPI
+from .image_downloader import ImageDownloader
+from .image_resolver import ProductImageResolver
+from .data_utils import extract_color_robust, extract_size_robust
+from .utils import logger
 
 # Aliases for column detection
 _ORDER_NUMBER_ALIASES = {"order number", "order no", "order #", "order no.", "ordernumber", "order_number"}

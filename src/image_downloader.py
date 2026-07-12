@@ -2,7 +2,7 @@ import requests
 from pathlib import Path
 from PIL import Image
 from concurrent.futures import ThreadPoolExecutor
-from utils import logger
+from .utils import logger
 
 class ImageDownloader:
     def __init__(self, image_dir="images", max_workers=10):

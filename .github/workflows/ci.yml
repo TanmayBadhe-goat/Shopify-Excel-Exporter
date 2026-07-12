@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12", "3.13"]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+          cache-dependency-path: requirements.txt
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y python3-tk
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Verify all modules import correctly
+        run: |
+          python -c "
+          from src.config import Config;
+          from src.auth import ShopifyAuth;
+          from src.shopify_api import ShopifyAPI;
+          from src.gui import ShopifyExporterGUI;
+          from src.database import DatabaseManager;
+          from src.database_sync import DatabaseSync;
+          from src.customer_search import DatabaseSearch;
+          from src.order_data_builder import OrderDataBuilder;
+          from src.column_selector import get_enabled_columns;
+          from src.settings_window import SettingsWindow;
+          from src.size_mapping_ui import SizeMappingEditor;
+          from src.image_cache_manager import ImageCacheManager;
+          from src.excel_exporter import ExcelExporter;
+          from src.image_resolver import ProductImageResolver;
+          from src.image_downloader import ImageDownloader;
+          from src.remittance_processor import process_remittance_csv;
+          from src.product_search import search_product_orders;
+          from src.data_utils import extract_color_robust;
+          from src.color_utils import resolve_color;
+          from src.size_utils import get_next_size;
+          print('All 20 modules import OK')
+          "
+
+      - name: Run tests
+        run: |
+          python -m pytest tests/ -v --tb=short --no-header

@@ -16,7 +16,7 @@ Performance guarantees
   • The file-level download cache (image_paths in gui.py) is unchanged.
 """
 
-from utils import logger
+from .utils import logger
 
 
 # Sentinel stored in the negative cache for products that have no image.
