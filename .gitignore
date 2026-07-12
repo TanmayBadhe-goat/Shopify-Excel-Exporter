@@ -12,6 +12,7 @@ env/
 # ── IDE / Editor ──────────────────────────────────────────────────────────
 .vscode/
 .idea/
+.refact/
 *.swp
 *.swo
 *~
@@ -31,7 +32,6 @@ image_cache.json
 shopify_token.json
 user_settings.json
 size_mapping.json
-nul
 
 # ── Test artifacts ─────────────────────────────────────────────────────────
 tests/__pycache__/
@@ -43,4 +43,5 @@ tests/__pycache__/
 # ── OS ────────────────────────────────────────────────────────────────────
 Thumbs.db
 .DS_Store
+nul
 node_modules/

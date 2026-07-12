@@ -25,7 +25,9 @@ jobs:
           cache-dependency-path: requirements.txt
 
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y python3-tk
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-tk xvfb
 
       - name: Install Python dependencies
         run: |
@@ -35,7 +37,7 @@ jobs:
 
       - name: Verify all modules import correctly
         run: |
-          python -c "
+          xvfb-run python -c "
           from src.config import Config;
           from src.auth import ShopifyAuth;
           from src.shopify_api import ShopifyAPI;
@@ -61,4 +63,4 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m pytest tests/ -v --tb=short --no-header
+          xvfb-run python -m pytest tests/ -v --tb=short --no-header
